@@ -286,7 +286,7 @@ This section provides a detailed introduction to two deep learning-based RE meth
 |  [Relation classification using segment-level attention-based CNN and dependency-based RNN](https://aclanthology.org/N19-1286/) |   SemEval-2010 Task 8     | SemEval-2010 Task 8      | 
 ## Joint Extraction-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
-| :----- | :--------------: | :---------: |
+| :----- | :--------------: | :---------: |:---------: |
 |  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | ChemProt、DDI  | [GitHub](https://github.com/tticoin/LSTM-ER)|
 |  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  | ChemProt、DDI  |
 |  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
@@ -309,7 +309,7 @@ This section provides a detailed introduction to two deep learning-based RE meth
 Models targeting only RE tasks.
 ### Prompt-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
-| :----- | :--------------: | :---------: |
+| :----- | :--------------: | :---------: |:---------: |
 |  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC     |  ChemProt、DDI  |[GitHub](https://github.com/artpli/CodeIE)|
 |  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  | ChemProt、DDI  |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
 |  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  | ChemProt、DDI  |[GitHub](https://github.com/YucanGuo/Code4UIE)|
@@ -327,7 +327,7 @@ Models targeting only RE tasks.
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
-| :----- | :--------------: | :---------: |
+| :----- | :--------------: | :---------: |:---------: |
 |  [Biomedical relation extraction using dependency graph and decoder-enhanced transformer model](https://www.mdpi.com/2306-5354/10/5/586)|   ChemProt、DDI  | ChemProt、DDI  |
 |  [Leveraging pre-trained language models for mining microbiome-disease relationships,](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |  DDI  | ChemProt、DDI  |
 |  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  | ChemProt、DDI  |
