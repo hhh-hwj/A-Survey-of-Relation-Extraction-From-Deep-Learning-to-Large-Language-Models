@@ -299,7 +299,7 @@ This section provides a detailed introduction to two deep learning-based RE meth
 |  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   | ChemProt、DDI  |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
 |  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  | ChemProt、DDI  |
 |  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     | ChemProt、DDI  |[GitHub](https://github.com/yubowen-ph/JointER)|
-|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG ||NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
+|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
 |  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG | ChemProt、DDI  |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
 |  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | ChemProt、DDI  |[GitHub](https://github.com/hy-struggle/PRGC)|
 |  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | ChemProt、DDI  |
