@@ -327,16 +327,16 @@ Models targeting only RE tasks.
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     | Code |
 | :----- | :--------------: | :---------: |
-|  [Biomedical relation extraction using dependency graph and decoder-enhanced transformer model,](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | [GitHub](https://github.com/tticoin/LSTM-ER)|
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships,](https://aclanthology.org/P17-1085/)  |  ACE05  |
-|  [Revisiting relation extraction in the era of large language models](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
-|  [Does synthetic data generation of llms help clinical text mining?](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
-|  [Unified structure generation for universal information extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     | 
-|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
-|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
-|  [Do instruction-tuned large language models help with relation extraction?](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |
-|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   |
-|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |      
+|  [Biomedical relation extraction using dependency graph and decoder-enhanced transformer model](https://www.mdpi.com/2306-5354/10/5/586)|   ChemProt、DDI  |
+|  [Leveraging pre-trained language models for mining microbiome-disease relationships,](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |  DDI  |
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |
+|  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |
+|  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    |[GitHub](https://github.com/universal-ie/UIE)|
+|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS  |[GitHub](https://github.com/beyonderxx/instructuie)|
+|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE|   [GitHub](https://github.com/Babelscape/rebel)|
+|  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf) |  REBEL   |
+|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/) |   Re-DocRED   | [GitHub](https://github.com/thudm/autore)|
+|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | [GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
 
 ## Relation Extraction Open-source Tools 
 Models targeting only EE tasks.
