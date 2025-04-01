@@ -26,7 +26,6 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 \* denotes the dataset is multimodal. # refers to the number of categories or sentences.
 
 <table>
-    <caption>关系抽取数据集列表</caption>
     <thead>
         <tr>
             <th align="center">Dataset</th>
