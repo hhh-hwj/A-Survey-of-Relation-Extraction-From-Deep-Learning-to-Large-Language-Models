@@ -45,7 +45,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center">6507</td>
             <td align="center">-</td>
             <td align="center">2717</td>
-            <td align="center"><a href="[https://catalog.ldc.upenn.edu/LDC2006T06](https://aclanthology.org/S10-1006/)">Link</a></td>
+            <td align="center"><a href="https://aclanthology.org/S10-1006/)">Link</a></td>
         </tr>
         <tr>
             <td align="center">ACE05</td>
