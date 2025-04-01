@@ -10,7 +10,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 
     
 ## 📒 Table of Contents
-- [Datasets](#information-extraction-tasks)
+- [Datasets](#Datasets)
 - [Relation extraction based on deep learning](#information-extraction-techniques)
     - [Pipeline-based Methods](#supervised-fine-tuning)
           -[CNN](#supervised-fine-tuning)
@@ -20,19 +20,13 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
     - [Joint Extraction-based Methods ](#few-shot)
           -[Shared parameter](#supervised-fine-tuning)
           -[Sequence labeling](#supervised-fine-tuning)
-- [Specific Domain](#specific-domain)
-- [Evaluation and Analysis](#evaluation-and-analysis)
-- [Project and Toolkit](#project-and-toolkit)
-- ⏰ [Recently Updated Papers](#recently-updated-papers) (After 2024/09/04, the updated papers is here~)
-- ⭐️ [Datasets](#datasets) (with Download Link~)
+- [Relation extraction based on LLMs](#specific-domain)
+     - [Pipeline-based Methods](#supervised-fine-tuning)
+     - [Pipeline-based Methods](#supervised-fine-tuning)
+     - [Pipeline-based Methods](#supervised-fine-tuning)
+     - [Pipeline-based Methods](#supervised-fine-tuning)
+- [Relation Extraction Open-source Tools](#evaluation-and-analysis)
 
-## 💡 News
-- **Update Logs**
-    - The details can be find in <code>./update_new_papers_list</code>.
-    - **2024/09/04** Add 22 papers
-    - **2024/06/06** Add 41 papers
-    - **2024/03/30** Add 27 papers
-    - **2024/03/29** Add 20 papers
 
 # Datasets
 A taxonomy by various tasks.
