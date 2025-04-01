@@ -1,49 +1,25 @@
 
 # A Survey of Relation Extraction: From Deep Learning to Large Language Models
 
-🔥🔥🔥 **The article has been accepted by Frontiers of Computer Science (FCS)**.
-
----
-
-Awesome papers about generative Information extraction using LLMs
-
 <p align="center" width="80%">
 <img src="./image/intro.png" style="width: 50%">
 </p>
 
-The organization of papers is discussed in our survey: [Large Language Models for Generative Information Extraction: A Survey](https://link.springer.com/article/10.1007/s11704-024-40555-y). 
+The organization of papers is discussed in our survey: A Survey of Relation Extraction: From Deep Learning to Large Language Models]
 
-If you find any relevant academic papers that have not been included in our research, please submit a request for an update. We welcome contributions from everyone.
-
-If any suggestions or mistakes, please feel free to let us know via email at **derongxu@mail.ustc.edu.cn** and **chenweicw@mail.ustc.edu.cn**. We appreciate your feedback and help in improving our work.
-
-If you find our survey useful for your research, please cite the following paper:
-
-    @article{xu2024large,
-      title={Large language models for generative information extraction: A survey},
-      author={Xu, Derong and Chen, Wei and Peng, Wenjun and Zhang, Chao and Xu, Tong and Zhao, Xiangyu and Wu, Xian and Zheng, Yefeng and Wang, Yang and Chen, Enhong},
-      journal={Frontiers of Computer Science},
-      volume={18},
-      number={6},
-      pages={186357},
-      year={2024},
-      publisher={Springer}
-    }
 
     
 ## 📒 Table of Contents
-- [Information Extraction tasks](#information-extraction-tasks)
-    - [Named Entity Recognition](#named-entity-recognition)
-    - [Relation Extraction ](#relation-extraction)
-    - [Event Extraction](#event-extraction)
-    - [Universal Information Extraction](#universal-information-extraction)
-- [Information Extraction Techniques](#information-extraction-techniques)
-    - [Supervised Fine-tuning](#supervised-fine-tuning)
-    - [Few-shot ](#few-shot)
-    - [Zero-shot](#zero-shot)
-    - [Data Augmentation](#data-augmentation)
-    - [Prompts Design](#prompts-design)
-    - [Constrained Decoding Generation](#constrained-decoding-generation)
+- [Datasets](#information-extraction-tasks)
+- [Relation extraction based on deep learning](#information-extraction-techniques)
+    - [Pipeline-based Methods](#supervised-fine-tuning)
+          -[CNN](#supervised-fine-tuning)
+          -[RNN](#supervised-fine-tuning)
+          -[LSTM](#supervised-fine-tuning)
+          -[Mix](#supervised-fine-tuning)
+    - [Joint Extraction-based Methods ](#few-shot)
+          -[Shared parameter](#supervised-fine-tuning)
+          -[Sequence labeling](#supervised-fine-tuning)
 - [Specific Domain](#specific-domain)
 - [Evaluation and Analysis](#evaluation-and-analysis)
 - [Project and Toolkit](#project-and-toolkit)
@@ -58,7 +34,7 @@ If you find our survey useful for your research, please cite the following paper
     - **2024/03/30** Add 27 papers
     - **2024/03/29** Add 20 papers
 
-# Information Extraction tasks
+# Datasets
 A taxonomy by various tasks.
 ## Named Entity Recognition 
 Models targeting only ner tasks.
