@@ -146,7 +146,7 @@ Models targeting only ner tasks.
 ## Pipeline-based Methods
 |  Paper  |      Dataset    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
-|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   EMNLP Findings      |  2023-12   | [GitHub](https://github.com/yanlinf/CASENT) |
+|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      |  2023-12   | [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
 |  [Relation extraction: Perspective from convolutional neural networks](https://arxiv.org/abs/2210.02914)  |   EMNLP       |  2022-12   | [GitHub](https://github.com/siyuyuan/GET) |
 |  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
 |  [Relation classification via multi-level attention CNNs](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
