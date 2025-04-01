@@ -146,8 +146,18 @@ Models targeting only ner tasks.
 ## Pipeline-based Methods
 |  Paper  |      Venue    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
-|  [Calibrated Seq2seq Models for Efficient and Generalizable Ultra-fine Entity Typing](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   | [GitHub](https://github.com/yanlinf/CASENT) |
-|  [Generative Entity Typing with Curriculum Learning](https://arxiv.org/abs/2210.02914)  |   EMNLP       |  2022-12   | [GitHub](https://github.com/siyuyuan/GET) |
+|  [Relation classification via convolutional deep neural network](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   | [GitHub](https://github.com/yanlinf/CASENT) |
+|  [Relation extraction: Perspective from convolutional neural networks](https://arxiv.org/abs/2210.02914)  |   EMNLP       |  2022-12   | [GitHub](https://github.com/siyuyuan/GET) |
+|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Chain based rnn for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Relation classification via convolutional deep neural network](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
 ## Joint Extraction-based Methods
 |  Paper  |      Venue    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
