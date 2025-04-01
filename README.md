@@ -147,8 +147,10 @@ Models targeting only ner tasks.
 |  Paper  |      Dataset    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
 |  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      |  2023-12   | [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
-|  [Relation extraction: Perspective from convolutional neural networks](https://arxiv.org/abs/2210.02914)  |   EMNLP       |  2022-12   | [GitHub](https://github.com/siyuyuan/GET) |
-|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  |    SemEval-2010 Task
+8 dataset       |  2022-12   |
+|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  |    SemEval-2010 Task
+8 dataset     |  2023-12   |[GitHub][(https://github.com/onehaitao/CR-CNN-relation-extraction)|
 |  [Relation classification via multi-level attention CNNs](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
 |  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
 |  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
