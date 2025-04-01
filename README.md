@@ -45,7 +45,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center">6507</td>
             <td align="center">-</td>
             <td align="center">2717</td>
-            <td align="center"><a href="https://aclanthology.org/S10-1006/)">Link</a></td>
+            <td align="center"><a href="https://aclanthology.org/S10-1006/">Link</a></td>
         </tr>
         <tr>
             <td align="center">ACE05</td>
@@ -54,7 +54,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center">10051</td>
             <td align="center">2424</td>
             <td align="center">2050</td>
-            <td align="center"><a href="[http://lavis.cs.hs-rm.de/storage/spert/public/datasets/ade/](https://catalog.ldc.upenn.edu/LDC2006T06)">Link</a></td>
+            <td align="center"><a href="https://catalog.ldc.upenn.edu/LDC2006T06">Link</a></td>
         </tr>
         <tr>
             <td align="center">CoNLL04</td>
@@ -63,34 +63,52 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center">1153</td>
             <td align="center">288</td>
             <td align="center">288</td>
-            <td align="center"><a href="[http://lavis.cs.hs-rm.de/storage/spert/public/datasets/conll04/](https://cogcomp.seas.upenn.edu/page/resource view/43)">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">DocRED</td>
-            <td align="center">Wikipedia</td>
-            <td align="center">96</td>
-            <td align="center">3008</td>
-            <td align="center">300</td>
-            <td align="center">700</td>
-            <td align="center"><a href="https://github.com/thunlp/DocRED">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">MNRE<sup>*</sup></td>
-            <td align="center">Social Media</td>
-            <td align="center">23</td>
-            <td align="center">12247</td>
-            <td align="center">1624</td>
-            <td align="center">1614</td>
-            <td align="center"><a href="https://github.com/thecharm/MNRE">Link</a></td>
+            <td align="center"><a href="https://cogcomp.seas.upenn.edu/page/resource view/43">Link</a></td>
         </tr>
         <tr>
             <td align="center">NYT</td>
             <td align="center">News</td>
             <td align="center">24</td>
-            <td align="center">56196</td>
+            <td align="center">56195</td>
             <td align="center">5000</td>
             <td align="center">5000</td>
-            <td align="center"><a href="https://github.com/thunlp/OpenNRE/blob/master/benchmark/download_nyt10.sh">Link</a></td>
+            <td align="center"><a href="https://iesl.cs.umass.edu/riedel/ecml/">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">WebNLG<sup>*</sup></td>
+            <td align="center">General</td>
+            <td align="center">246</td>
+            <td align="center">5019</td>
+            <td align="center">500</td>
+            <td align="center">703</td>
+            <td align="center"><a href="https://github.com/weizhepei/CasRel/tree/master/data/WebNLG">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">ADE</td>
+            <td align="center">Biomedical</td>
+            <td align="center">1</td>
+            <td align="center">3417</td>
+            <td align="center">427</td>
+            <td align="center">428</td>
+            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">SciERC</td>
+            <td align="center">Scientific</td>
+            <td align="center">7</td>
+            <td align="center">1861</td>
+            <td align="center">275</td>
+            <td align="center">551</td>
+            <td align="center"><a href="https://nlp.cs.washington.edu/sciIE/">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">TACRED</td>
+            <td align="center">News</td>
+            <td align="center">42</td>
+            <td align="center">68124</td>
+            <td align="center">22631</td>
+            <td align="center">15509</td>
+            <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
         </tr>
         <tr>
             <td align="center">Re-TACRED</td>
@@ -102,31 +120,13 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center"><a href="https://github.com/gstoica27/Re-TACRED">Link</a></td>
         </tr>
         <tr>
-            <td align="center">SciERC</td>
-            <td align="center">Scientific</td>
-            <td align="center">7</td>
-            <td align="center">1366</td>
-            <td align="center">187</td>
-            <td align="center">397</td>
-            <td align="center"><a href="http://lavis.cs.hs-rm.de/storage/spert/public/datasets/scierc/">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">SemEval2010</td>
-            <td align="center">General</td>
-            <td align="center">19</td>
-            <td align="center">6507</td>
-            <td align="center">1493</td>
-            <td align="center">2717</td>
-            <td align="center"><a href="https://github.com/thunlp/OpenNRE/blob/master/benchmark/download_semeval.sh">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">TACRED</td>
+            <td align="center">TACREV</td>
             <td align="center">News</td>
             <td align="center">42</td>
             <td align="center">68124</td>
             <td align="center">22631</td>
             <td align="center">15509</td>
-            <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
+            <td align="center"><a href="https://github.com/DFKI-NLP/tacrev">Link</a></td>
         </tr>
         <tr>
             <td align="center">TACREV</td>
