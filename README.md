@@ -340,6 +340,12 @@ Models targeting only RE tasks.
 
 ## Relation Extraction Open-source Tools 
 Models targeting only EE tasks.
+|  Paper  |    Features    | Code |
+| :----- | :--------------: | :---------: |
+|  [OpenNRE](https://www.mdpi.com/2306-5354/10/5/586)| Support sentence-level, documentlevel, few-shot RE. |[GitHub]https://github.com/ thunlp/OpenNRE)|
+|  [OpenUE](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |  Based on PyTorch, supports efficient training and inference. |[GitHub](https://github.com/ zjunlp/openue)|
+|  [DeepKE](https://aclanthology.org/2023.acl-long.868.pdf) | Supports cnSchema, low-resource, long-length, and multi-modal RE. |[GitHub](https://github.com/ zjunlp/DeepKE)|
+|  [UIE](https://aclanthology.org/2022.acl-long.395/) |   Supports large-scale pre-trained models and fine-tuning on demand.    |[GitHub](https://github.com/ universal-ie/UIE)|
 
 ## Star History
 
