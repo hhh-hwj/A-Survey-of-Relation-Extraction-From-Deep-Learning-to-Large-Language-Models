@@ -11,9 +11,9 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
     
 ## 📒 Table of Contents
 - [Datasets](#Datasets)
-- [Relation extraction based on deep learning](#information-extraction-techniques)
-    - [Pipeline-based Methods](#supervised-fine-tuning)
-    - [Joint Extraction-based Methods ](#few-shot)
+- [Relation extraction based on deep learning](#Relation extraction based on deep learning)
+    - [Pipeline-based Methods](#Pipeline-based Methods)
+    - [Joint Extraction-based Methods](#Joint Extraction-based Methods)
 - [Relation extraction based on LLMs](#specific-domain)
      - [Pipeline-based Methods](#supervised-fine-tuning)
      - [Pipeline-based Methods](#supervised-fine-tuning)
@@ -24,14 +24,14 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 
 # Datasets
 A taxonomy by various tasks.
-## Named Entity Recognition 
+## Relation extraction based on deep learning 
 Models targeting only ner tasks.
-### Entity Typing
+### Pipeline-based Methods
 |  Paper  |      Venue    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
 |  [Calibrated Seq2seq Models for Efficient and Generalizable Ultra-fine Entity Typing](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   | [GitHub](https://github.com/yanlinf/CASENT) |
 |  [Generative Entity Typing with Curriculum Learning](https://arxiv.org/abs/2210.02914)  |   EMNLP       |  2022-12   | [GitHub](https://github.com/siyuyuan/GET) |
-### Entity Identification & Typing 
+### Joint Extraction-based Methods
 |  Paper  |      Venue    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
 | [Granular Entity Mapper: Advancing Fine-grained Multimodal Named Entity Recognition and Grounding](https://aclanthology.org/2024.findings-emnlp.183/) | EMNLP Findings | 2024 | |
