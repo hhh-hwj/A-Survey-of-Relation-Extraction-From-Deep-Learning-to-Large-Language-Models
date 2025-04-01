@@ -23,7 +23,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 
 
 # Datasets
-\* denotes the dataset is multimodal. # refers to the number of categories or sentences.
+We have summarized the commonly used datasets for RE tasks through an extensive survey of the existing literature.To assist readers, the table includes the domain, dataset sizes, and corresponding links for each dataset.
 
 <table>
     <thead>
