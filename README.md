@@ -309,24 +309,24 @@ Models targeting only RE tasks.
 ### Prompt-based Methods
 |  Paper  |      Dataset     | Code |
 | :----- | :--------------: | :---------: |
-|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | [GitHub](https://github.com/tticoin/LSTM-ER)|
-|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  |
-|  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
-|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
-|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     | 
-|  [Entity-relation extraction as multi-turn question answering](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
-|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
-|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |
-|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   |
-|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |      
-|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
-|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  |
-|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     |[GitHub](https://github.com/yubowen-ph/JointER)|
-|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
-|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
-|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     |[GitHub](https://github.com/hy-struggle/PRGC)|
-|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    |
-|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
+|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | [GitHub](https://github.com/tticoin/LSTM-ER)|
+|  [Codekgc: Code language model for generative knowledge graph construction](https://aclanthology.org/P17-1085/)  |  ACE05  |
+|  [Retrieval-augmented code generation for universal information extraction](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
+|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
+
+|  [Zero-shot temporal relation extraction with ChatGPT](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     | 
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
+|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
+|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |
+
+|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   |
+|  [Revisiting large language models as zeroshot relation extractors](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |      
+|  [Chatie: Zero-shot information extraction via chatting with chatgpt](https://aclanthology.org/P17-1113/) |    NYT   |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
+
+|  [How to unleash the power of large language models for few-shot relation extraction?](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  |
+|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     |[GitHub](https://github.com/yubowen-ph/JointER)|
+|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
+
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     | Code |
