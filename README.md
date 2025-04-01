@@ -285,59 +285,59 @@ This section provides a detailed introduction to two deep learning-based RE meth
 |  [A single attention-based combination of cnn and rnn for relation classification](https://ieeexplore.ieee.org/document/8606107) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
 |  [Relation classification using segment-level attention-based CNN and dependency-based RNN](https://aclanthology.org/N19-1286/) |   SemEval-2010 Task 8     | SemEval-2010 Task 8      | 
 ## Joint Extraction-based Methods
-|  Paper  |      Dataset     | Code |
+|  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |
-|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | [GitHub](https://github.com/tticoin/LSTM-ER)|
-|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  |
+|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | ChemProt、DDI  | [GitHub](https://github.com/tticoin/LSTM-ER)|
+|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  | ChemProt、DDI  |
 |  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
-|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
-|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     | 
-|  [Entity-relation extraction as multi-turn question answering](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
-|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
-|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |
-|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   |
-|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |      
-|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
-|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  |
-|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     |[GitHub](https://github.com/yubowen-ph/JointER)|
+|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   | ChemProt、DDI  |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
+|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     |  ChemProt、DDI  |
+|  [Entity-relation extraction as multi-turn question answering](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   | ChemProt、DDI  |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
+|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   ChemProt、DDI  | [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
+|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    | ChemProt、DDI  |
+|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   | ChemProt、DDI  |
+|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |    ChemProt、DDI  |   
+|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   | ChemProt、DDI  |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
+|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  | ChemProt、DDI  |
+|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     | ChemProt、DDI  |[GitHub](https://github.com/yubowen-ph/JointER)|
 |  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
-|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
-|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     |[GitHub](https://github.com/hy-struggle/PRGC)|
-|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    |
-|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
+|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG | ChemProt、DDI  |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
+|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | ChemProt、DDI  |[GitHub](https://github.com/hy-struggle/PRGC)|
+|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | ChemProt、DDI  |
+|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  | ChemProt、DDI  |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
 ## Relation extraction based on LLMs 
 Models targeting only RE tasks.
 ### Prompt-based Methods
-|  Paper  |      Dataset     | Code |
+|  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |
-|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC     | [GitHub](https://github.com/artpli/CodeIE)|
-|  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
-|  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  |[GitHub](https://github.com/YucanGuo/Code4UIE)|
-|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/2024.findings-emnlp.590/)| CoNLL04 ACE05 NYT SciERC  |
-|  [Zero-shot temporal relation extraction with ChatGPT](https://aclanthology.org/2023.bionlp-1.7/) |    TB-Dense、MATRES 、TDDMan | 
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf)  |  ADE、NYT、CoNLL04   |
-|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED。SciERC、ACE05  |   [GitHub](https://github.com/YukinoWan/GPT-RE)|
-|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://aclanthology.org/2023.findings-emnlp.153/) | FewRel 1.0、 FewRel 2.0  |
-|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |  [GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
-|  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|      
-|  [Chatie: Zero-shot information extraction via chatting with ChatGPT](https://arxiv.org/abs/2302.10205) |   DuIE2.0#、NYT11-HRL  |[GitHub](https://github.com/cocacola-lab/ChatIE)|
-|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
-|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |[GitHub](https://github.com/eternityyw/llm_healthcare)|
-|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT|
+|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC     |  ChemProt、DDI  |[GitHub](https://github.com/artpli/CodeIE)|
+|  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  | ChemProt、DDI  |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
+|  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  | ChemProt、DDI  |[GitHub](https://github.com/YucanGuo/Code4UIE)|
+|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/2024.findings-emnlp.590/)| CoNLL04 ACE05 NYT SciERC  | ChemProt、DDI  |
+|  [Zero-shot temporal relation extraction with ChatGPT](https://aclanthology.org/2023.bionlp-1.7/) |    TB-Dense、MATRES 、TDDMan |  ChemProt、DDI  |
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf)  |  ADE、NYT、CoNLL04   | ChemProt、DDI  |
+|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED。SciERC、ACE05  |  ChemProt、DDI  |  [GitHub](https://github.com/YukinoWan/GPT-RE)|
+|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://aclanthology.org/2023.findings-emnlp.153/) | FewRel 1.0、 FewRel 2.0  | ChemProt、DDI  |
+|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |   ChemProt、DDI  |[GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
+|  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|   ChemProt、DDI  |    
+|  [Chatie: Zero-shot information extraction via chatting with ChatGPT](https://arxiv.org/abs/2302.10205) |   DuIE2.0#、NYT11-HRL  | ChemProt、DDI  |[GitHub](https://github.com/cocacola-lab/ChatIE)|
+|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | ChemProt、DDI  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
+|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     | ChemProt、DDI  |[GitHub](https://github.com/eternityyw/llm_healthcare)|
+|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| ChemProt、DDI  |
 
 ### Fine-tuning-based Methods
-|  Paper  |      Dataset     | Code |
+|  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |
-|  [Biomedical relation extraction using dependency graph and decoder-enhanced transformer model](https://www.mdpi.com/2306-5354/10/5/586)|   ChemProt、DDI  |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships,](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |  DDI  |
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |
-|  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |
-|  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    |[GitHub](https://github.com/universal-ie/UIE)|
-|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS  |[GitHub](https://github.com/beyonderxx/instructuie)|
-|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE|   [GitHub](https://github.com/Babelscape/rebel)|
-|  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf) |  REBEL   |
-|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/) |   Re-DocRED   | [GitHub](https://github.com/thudm/autore)|
-|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | [GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
+|  [Biomedical relation extraction using dependency graph and decoder-enhanced transformer model](https://www.mdpi.com/2306-5354/10/5/586)|   ChemProt、DDI  | ChemProt、DDI  |
+|  [Leveraging pre-trained language models for mining microbiome-disease relationships,](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |  DDI  | ChemProt、DDI  |
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  | ChemProt、DDI  |
+|  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   | ChemProt、DDI  |
+|  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    | ChemProt、DDI  |[GitHub](https://github.com/universal-ie/UIE)|
+|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS  | ChemProt、DDI  |[GitHub](https://github.com/beyonderxx/instructuie)|
+|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE|   ChemProt、DDI  | [GitHub](https://github.com/Babelscape/rebel)|
+|  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf) |  REBEL   | ChemProt、DDI  |
+|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/) |   Re-DocRED   |  ChemProt、DDI  |[GitHub](https://github.com/thudm/autore)|
+|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   |  ChemProt、DDI  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
 
 ## Relation Extraction Open-source Tools 
 Models targeting only EE tasks.
