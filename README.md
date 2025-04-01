@@ -309,24 +309,20 @@ Models targeting only RE tasks.
 ### Prompt-based Methods
 |  Paper  |      Dataset     | Code |
 | :----- | :--------------: | :---------: |
-|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | [GitHub](https://github.com/tticoin/LSTM-ER)|
-|  [Codekgc: Code language model for generative knowledge graph construction](https://aclanthology.org/P17-1085/)  |  ACE05  |
-|  [Retrieval-augmented code generation for universal information extraction](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
-|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
-
-|  [Zero-shot temporal relation extraction with ChatGPT](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     | 
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
-|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
-|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |
-
-|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   |
-|  [Revisiting large language models as zeroshot relation extractors](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |      
-|  [Chatie: Zero-shot information extraction via chatting with chatgpt](https://aclanthology.org/P17-1113/) |    NYT   |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
-
-|  [How to unleash the power of large language models for few-shot relation extraction?](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  |
-|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     |[GitHub](https://github.com/yubowen-ph/JointER)|
-|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
-
+|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC     | [GitHub](https://github.com/artpli/CodeIE)|
+|  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
+|  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  |[GitHub](https://github.com/YucanGuo/Code4UIE)|
+|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/2024.findings-emnlp.590/)| CoNLL04 ACE05 NYT SciERC  |
+|  [Zero-shot temporal relation extraction with ChatGPT](https://aclanthology.org/2023.bionlp-1.7/) |    TB-Dense、MATRES 、TDDMan | 
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf)  |  ADE、NYT、CoNLL04   |
+|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED。SciERC、ACE05  |   [GitHub](https://github.com/YukinoWan/GPT-RE)|
+|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://aclanthology.org/2023.findings-emnlp.153/) | FewRel 1.0、 FewRel 2.0  |
+|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |  [GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
+|  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|      
+|  [Chatie: Zero-shot information extraction via chatting with ChatGPT](https://arxiv.org/abs/2302.10205) |   DuIE2.0#、NYT11-HRL  |[GitHub](https://github.com/cocacola-lab/ChatIE)|
+|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
+|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |[GitHub](https://github.com/eternityyw/llm_healthcare)|
+|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT|
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     | Code |
