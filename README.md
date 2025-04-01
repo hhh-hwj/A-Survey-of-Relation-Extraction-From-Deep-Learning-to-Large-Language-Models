@@ -142,17 +142,17 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 
 
 # Relation extraction based on deep learning 
-Models targeting only ner tasks.
+This section provides a detailed introduction to two deep learning-based RE methods: pipeline-based and joint extraction-based methods.
 ## Pipeline-based Methods
 |  Paper  |      Dataset     | Code |
 | :----- | :--------------: | :---------: |
 |  [1.Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      | [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
 |  [2.Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  | SemEval-2010 Task 8 dataset  |
 |  [3.Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  | SemEval-2010 Task 8 dataset  |[GitHub](https://github.com/onehaitao/CR-CNN-relation-extraction)|
-|  [4.Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |[GitHub]（https://github.com/FrankWork/acnn）|
-|  [5.Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/2023.findings-emnlp.1040/) |   SemEval-2010 Task 8    |   SemEval-2010 Task 8   |  [GitHub]（https://github.com/FrankWork/acnn）  |
-|  [6.Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://aclanthology.org/2023.findings-emnlp.1040/)  |   SemEval-2010 Task 8   |[GitHub]（https://github.com/FrankWork/acnn）|
-|  [7.Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/2023.findings-emnlp.1040/) |   SemEval-2010 Task 8    |[GitHub]（https://github.com/FrankWork/acnn）         |
+|  [4.Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |[GitHub](https://github.com/FrankWork/acnn)|
+|  [5.Semantic relation classification via convolutional neural networks with simple negative sampling][(https://aclanthology.org/D15-1062/) |   SemEval-2010 Task 8    |   SemEval-2010 Task 8   |    |
+|  [6.Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |   SemEval-2010 Task 8   ||
+|  [7.Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval-2010 Task 8    |      |
 |  [8.Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/2023.findings-emnlp.1040/) |   SemEval-2010 Task 8    |[GitHub]（https://github.com/FrankWork/acnn）       |
 |  [9.Chain based rnn for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/) |   SemEval-2010 Task 8    |[GitHub]（https://github.com/FrankWork/acnn）   |
 |  [10.Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/2023.findings-emnlp.1040/) |   SemEval-2010 Task 8    |[GitHub]（https://github.com/FrankWork/acnn）        
