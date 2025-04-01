@@ -75,7 +75,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center"><a href="https://iesl.cs.umass.edu/riedel/ecml/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">WebNLG<sup>*</sup></td>
+            <td align="center">WebNLG</td>
             <td align="center">General</td>
             <td align="center">246</td>
             <td align="center">5019</td>
