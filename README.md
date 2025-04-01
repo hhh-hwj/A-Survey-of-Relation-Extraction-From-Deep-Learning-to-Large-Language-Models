@@ -26,9 +26,9 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 \* denotes the dataset is multimodal. # refers to the number of categories or sentences.
 
 <table>
+    <caption>关系抽取数据集列表</caption>
     <thead>
         <tr>
-            <th align="center">Task</th>
             <th align="center">Dataset</th>
             <th align="center">Domain</th>
             <th align="center">#Class</th>
@@ -40,7 +40,6 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
     </thead>
     <tbody>
         <tr>
-            <td align="center" rowspan="11"><strong>RE</strong></td>
             <td align="center">ACE05</td>
             <td align="center">News</td>
             <td align="center">7</td>
@@ -77,7 +76,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
             <td align="center"><a href="https://github.com/thunlp/DocRED">Link</a></td>
         </tr>
         <tr>
-            <td align="center">MNRE<sup>*<sup></td>
+            <td align="center">MNRE<sup>*</sup></td>
             <td align="center">Social Media</td>
             <td align="center">23</td>
             <td align="center">12247</td>
