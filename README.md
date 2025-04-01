@@ -39,31 +39,31 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
     </thead>
     <tbody>
         <tr>
-            <td align="center">ACE05</td>
-            <td align="center">News</td>
-            <td align="center">7</td>
-            <td align="center">10051</td>
-            <td align="center">2420</td>
-            <td align="center">2050</td>
-            <td align="center"><a href="https://catalog.ldc.upenn.edu/LDC2006T06">Link</a></td>
+            <td align="center">SemEval-2010 Task 8</td>
+            <td align="center">General</td>
+            <td align="center">19</td>
+            <td align="center">6507</td>
+            <td align="center">-</td>
+            <td align="center">2717</td>
+            <td align="center"><a href="[https://catalog.ldc.upenn.edu/LDC2006T06](https://aclanthology.org/S10-1006/)">Link</a></td>
         </tr>
         <tr>
-            <td align="center">ADE</td>
-            <td align="center">Biomedical</td>
-            <td align="center">1</td>
-            <td align="center">3417</td>
-            <td align="center">427</td>
-            <td align="center">428</td>
-            <td align="center"><a href="http://lavis.cs.hs-rm.de/storage/spert/public/datasets/ade/">Link</a></td>
+            <td align="center">ACE05</td>
+            <td align="center">News</td>
+            <td align="center">6</td>
+            <td align="center">10051</td>
+            <td align="center">2424</td>
+            <td align="center">2050</td>
+            <td align="center"><a href="[http://lavis.cs.hs-rm.de/storage/spert/public/datasets/ade/](https://catalog.ldc.upenn.edu/LDC2006T06)">Link</a></td>
         </tr>
         <tr>
             <td align="center">CoNLL04</td>
             <td align="center">News</td>
-            <td align="center">5</td>
-            <td align="center">922</td>
-            <td align="center">231</td>
+            <td align="center">6</td>
+            <td align="center">1153</td>
             <td align="center">288</td>
-            <td align="center"><a href="http://lavis.cs.hs-rm.de/storage/spert/public/datasets/conll04/">Link</a></td>
+            <td align="center">288</td>
+            <td align="center"><a href="[http://lavis.cs.hs-rm.de/storage/spert/public/datasets/conll04/](https://cogcomp.seas.upenn.edu/page/resource view/43)">Link</a></td>
         </tr>
         <tr>
             <td align="center">DocRED</td>
