@@ -15,10 +15,10 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
     - [Pipeline-based Methods](#Pipeline-based Methods)
     - [Joint Extraction-based Methods](#Joint Extraction-based Methods)
 - [Relation extraction based on LLMs](#specific-domain)
-     - [Pipeline-based Methods](#supervised-fine-tuning)
-     - [Pipeline-based Methods](#supervised-fine-tuning)
-     - [Pipeline-based Methods](#supervised-fine-tuning)
-     - [Pipeline-based Methods](#supervised-fine-tuning)
+     - [Background of LLMs](#supervised-fine-tuning)
+     - [Prompt-based Methods](#supervised-fine-tuning)
+     - [Fine-tuning-based Methods](#supervised-fine-tuning)
+     - [Data Augmentation-based Methods](#supervised-fine-tuning)
 - [Relation Extraction Open-source Tools](#evaluation-and-analysis)
 
 
