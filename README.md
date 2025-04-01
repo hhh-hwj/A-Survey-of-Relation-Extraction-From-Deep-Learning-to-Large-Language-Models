@@ -144,31 +144,29 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 # Relation extraction based on deep learning 
 Models targeting only ner tasks.
 ## Pipeline-based Methods
-|  Paper  |      Dataset    |   Date  | Code |
-| :----- | :--------------: | :------- | :---------: |
-|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      |  2023-12   | [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
-|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  |    SemEval-2010 Task
-8 dataset       |  2022-12   |
-|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  |    SemEval-2010 Task
-8 dataset     |  2023-12   |[GitHub][(https://github.com/onehaitao/CR-CNN-relation-extraction)|
-|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Chain based rnn for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Attentionbased bidirectional long short-term memory networks for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Attention-based lstm with filter mechanism for entity relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Direction-sensitive relation extraction using bi-sdp attention model](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [A dependencybased neural network for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Bidirectional recurrent convolutional neural network for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Structure regularized neural network for entity relation classification for Chinese literature text](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Neural relation classification with text descriptions](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [A combination of rnn and cnn for attention-based relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [A single attentionbased combination of cnn and rnn for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
-|  [Relation classification using segment-level attention-based CNN and dependencybased RNN](https://aclanthology.org/2023.findings-emnlp.1040/)  |   EMNLP Findings      |  2023-12   |
+|  Paper  |      Dataset     | Code |
+| :----- | :--------------: | :---------: |
+|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      | [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
+|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  | SemEval-2010 Task 8 dataset  |
+|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  | SemEval-2010 Task 8 dataset  |[GitHub](https://github.com/onehaitao/CR-CNN-relation-extraction)|
+|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |[GitHub]（https://github.com/FrankWork/acnn）
+|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/2023.findings-emnlp.1040/)  |      |
+|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://aclanthology.org/2023.findings-emnlp.1040/)  |           |
+|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/2023.findings-emnlp.1040/)  |         |
+|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |       |
+|  [Chain based rnn for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   |
+|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/2023.findings-emnlp.1040/)  |        
+|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/2023.findings-emnlp.1040/)  |          |
+|  [Attentionbased bidirectional long short-term memory networks for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |          |
+|  [Attention-based lstm with filter mechanism for entity relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |     |
+|  [Direction-sensitive relation extraction using bi-sdp attention model](https://aclanthology.org/2023.findings-emnlp.1040/)  |     |
+|  [A dependencybased neural network for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |     |
+|  [Bidirectional recurrent convolutional neural network for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |    |
+|  [Structure regularized neural network for entity relation classification for Chinese literature text](https://aclanthology.org/2023.findings-emnlp.1040/)  |    |
+|  [Neural relation classification with text descriptions](https://aclanthology.org/2023.findings-emnlp.1040/)  |    |
+|  [A combination of rnn and cnn for attention-based relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |   |
+|  [A single attentionbased combination of cnn and rnn for relation classification](https://aclanthology.org/2023.findings-emnlp.1040/)  |     |
+|  [Relation classification using segment-level attention-based CNN and dependencybased RNN](https://aclanthology.org/2023.findings-emnlp.1040/)  |     |
 ## Joint Extraction-based Methods
 |  Paper  |      Venue    |   Date  | Code |
 | :----- | :--------------: | :------- | :---------: |
