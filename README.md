@@ -285,24 +285,24 @@ This section provides a detailed introduction to two deep learning-based RE meth
 ## Joint Extraction-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |:---------: |
-|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04     | ChemProt、DDI  | [GitHub](https://github.com/tticoin/LSTM-ER)|
-|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  | ChemProt、DDI  |
-|  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  |
-|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   | ChemProt、DDI  |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
-|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     |  ChemProt、DDI  |
-|  [Entity-relation extraction as multi-turn question answering](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   | ChemProt、DDI  |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
-|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   ChemProt、DDI  | [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
-|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    | ChemProt、DDI  |
-|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   | ChemProt、DDI  |
-|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |    ChemProt、DDI  |   
-|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   | ChemProt、DDI  |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
-|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  | ChemProt、DDI  |
-|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     | ChemProt、DDI  |[GitHub](https://github.com/yubowen-ph/JointER)|
-|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |NYT、WebNLG |[GitHub](https://github.com/weizhepei/CasRel)|
-|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG | ChemProt、DDI  |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
-|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | ChemProt、DDI  |[GitHub](https://github.com/hy-struggle/PRGC)|
-|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | ChemProt、DDI  |
-|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  | ChemProt、DDI  |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
+|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04、SemEval-2010 Task 8     |P R micro-F1、macro-F1 | [GitHub](https://github.com/tticoin/LSTM-ER)|
+|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  | P R micro-F1  |
+|  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  | P R micro-F1  |
+|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   | P R micro-F1  |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
+|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     |   P R micro-F1  |
+|  [Entity-relation extraction as multi-turn question answering](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   | P R micro-F1  |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
+|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   P R micro-F1 | [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
+|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |  P R micro-F1 |
+|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   | micro-F1  |
+|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |    P R micro-F1   |   
+|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   |  P R micro-F1  |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
+|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  | P R micro-F1   |
+|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     | P R micro-F1  |[GitHub](https://github.com/yubowen-ph/JointER)|
+|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |P R micro-F1  |[GitHub](https://github.com/weizhepei/CasRel)|
+|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG |P R micro-F1  |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
+|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | P R micro-F1 |[GitHub](https://github.com/hy-struggle/PRGC)|
+|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | P R micro-F1  |
+|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  | P R micro-F1 |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
 ## Relation extraction based on LLMs 
 Models targeting only RE tasks.
 ### Prompt-based Methods
