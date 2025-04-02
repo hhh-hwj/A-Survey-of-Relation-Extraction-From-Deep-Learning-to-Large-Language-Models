@@ -262,27 +262,26 @@ This section provides a detailed introduction to two deep learning-based RE meth
 ## Pipeline-based Methods
 |  Paper  |      Dataset | Evaluation Metrics    | Code |
 | :----- | :--------------: |:---------: | :---------: |
-|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      | SemEval-2010 Task 8      |  [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
-|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  | SemEval-2010 Task 8  | SemEval-2010 Task 8      | 
-|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  | SemEval-2010 Task 8   | SemEval-2010 Task 8      | [GitHub](https://github.com/onehaitao/CR-CNN-relation-extraction)|
-|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   | SemEval-2010 Task 8      | [GitHub](https://github.com/FrankWork/acnn)|
-|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/D15-1062/) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      |  
-|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |   SemEval-2010 Task 8   | SemEval-2010 Task 8      | 
-|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval-2010 Task 8    |   SemEval-2010 Task 8      |   
-|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/D13-1137/) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/C16-1138/) |   SemEval-2010 Task 8    |    SemEval-2010 Task 8      |    
-|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/D15-1206/) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [Attention-based bidirectional long short-term memory networks for relation classification](https://aclanthology.org/P16-2034/))|   SemEval-2010 Task 8     | SemEval-2010 Task 8      | 
-|  [Attention-based lstm with filter mechanism for entity relation classification](https://www.mdpi.com/2073-8994/12/10/1729)|   SemEval-2010 Task 8     | SemEval-2010 Task 8      | 
-|  [Direction-sensitive relation extraction using bi-sdp attention model](https://www.sciencedirect.com/science/article/abs/pii/S0950705120302628) |SemEval-2010 Task 8 | SemEval-2010 Task 8      | 
-|  [A dependency-based neural network for relation classification](https://aclanthology.org/P15-2047.pdf) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [Bidirectional recurrent convolutional neural network for relation classification](https://aclanthology.org/P16-1072/) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [Structure regularized neural network for entity relation classification for Chinese literature text](https://aclanthology.org/N18-2059/) |  self-control    | SemEval-2010 Task 8      | 
-|  [Neural relation classification with text descriptions](https://aclanthology.org/C18-1100/) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [A combination of rnn and cnn for attention-based relation classification](https://www.sciencedirect.com/science/article/pii/S187705091830601X) | SemEval-2010 Task 8 | SemEval-2010 Task 8      | 
-|  [A single attention-based combination of cnn and rnn for relation classification](https://ieeexplore.ieee.org/document/8606107) |   SemEval-2010 Task 8    | SemEval-2010 Task 8      | 
-|  [Relation classification using segment-level attention-based CNN and dependency-based RNN](https://aclanthology.org/N19-1286/) |   SemEval-2010 Task 8     | SemEval-2010 Task 8      | 
+|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      | macro-F1     |  [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
+|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  | SemEval-2010 Task 8  |P R macro-F1     | 
+|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  | SemEval-2010 Task 8   | P R macro-F1      | [GitHub](https://github.com/onehaitao/CR-CNN-relation-extraction)|
+|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |  macro-F1     | [GitHub](https://github.com/FrankWork/acnn)|
+|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/D15-1062/) |   SemEval-2010 Task 8    | macro-F1       |  
+|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |   P R macro-F1    | SemEval-2010 Task 8      | 
+|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval-2010 Task 8    |    macro-F1     |   
+|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/D13-1137/) |   SemEval-2010 Task 8    |macro-F1      | 
+|  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval-2010 Task 8    | macro-F1    | 
+|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/C16-1138/) |   SemEval-2010 Task 8   | macro-F1     | 
+|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/D15-1206/) |   SemEval-2010 Task 8    |macro-F1    | 
+|  [Attention-based bidirectional long short-term memory networks for relation classification](https://aclanthology.org/P16-2034/))|   SemEval-2010 Task 8   | macro-F1     | 
+|  [Attention-based lstm with filter mechanism for entity relation classification](https://www.mdpi.com/2073-8994/12/10/1729)|   SemEval-2010 Task 8     | macro-F1    | 
+|  [Direction-sensitive relation extraction using bi-sdp attention model](https://www.sciencedirect.com/science/article/abs/pii/S0950705120302628) |SemEval-2010 Task 8 | macro-F1     | 
+|  [A dependency-based neural network for relation classification](https://aclanthology.org/P15-2047.pdf) |   SemEval-2010 Task 8    | macro-F1     | 
+|  [Bidirectional recurrent convolutional neural network for relation classification](https://aclanthology.org/P16-1072/) |   SemEval-2010 Task 8    | macro-F1      | 
+|  [Neural relation classification with text descriptions](https://aclanthology.org/C18-1100/) |   SemEval-2010 Task 8    | P R macro-F1     | 
+|  [A combination of rnn and cnn for attention-based relation classification](https://www.sciencedirect.com/science/article/pii/S187705091830601X) | SemEval-2010 Task 8 | macro-F1       | 
+|  [A single attention-based combination of cnn and rnn for relation classification](https://ieeexplore.ieee.org/document/8606107) |   SemEval-2010 Task 8 |  macro-F1    | 
+|  [Relation classification using segment-level attention-based CNN and dependency-based RNN](https://aclanthology.org/N19-1286/) |   SemEval-2010 Task 8  |  macro-F1     | 
 ## Joint Extraction-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |:---------: |
