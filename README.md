@@ -326,7 +326,6 @@ Models targeting only RE tasks.
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |:---------: |
-|  [Biomedical relation extraction using dependency graph and decoder-enhanced transformer model](https://www.mdpi.com/2306-5354/10/5/586)|   ChemProt、DDI  | micro-F1 |
 |  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |GCS  |P R F1 |
 |  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  micro-F1 |
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |P R micro-F1 |
