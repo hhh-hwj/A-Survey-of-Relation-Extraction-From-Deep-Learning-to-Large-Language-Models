@@ -259,26 +259,29 @@ The core metrics for evaluating the performance of RE systems include precision 
 \[
 \text{Precision (P)} = \frac{\text{TP}}{\text{TP + FP}} \tag{1}
 \]
+
 \[
 \text{Recall (R)} = \frac{\text{TP}}{\text{TP + FN}} \tag{2}
 \]
+
 \[
 \text{F1} = 2 \times \frac{\text{P} \times \text{R}}{\text{P} + \text{R}} \tag{3}
 \]
+
 \[
 \text{Macro-F1} = \frac{1}{N} \sum_{i=1}^{N} \text{F1}_i \tag{4}
 \]
+
 \[
-\text{Micro-Precision (Micro-P)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FP}_i} 
-\tag{6}
+\text{Micro-Precision (Micro-P)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FP}_i} \tag{6}
 \]
+
 \[
-\text{Micro-Recall (Micro-R)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FN}_i} 
-\tag{6}
+\text{Micro-Recall (Micro-R)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FN}_i} \tag{6}
 \]
+
 \[
-\text{Micro-F1} = \frac{2 \times \text{Micro-P} \times \text{Micro-R}}{\text{Micro-P} + \text{Micro-R}}
-\tag{7}
+\text{Micro-F1} = \frac{2 \times \text{Micro-P} \times \text{Micro-R}}{\text{Micro-P} + \text{Micro-R}} \tag{7}
 \]
 \begin{equation}
     \text{Accuracy (ACC)} = \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}} \tag{8}
