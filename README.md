@@ -343,7 +343,7 @@ This section provides a detailed introduction to two deep learning-based RE meth
 Models targeting only RE tasks.
 ### Prompt-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics  |Domian  | Code |
-| :----- | :--------------: | :---------: |:---------: |
+| :----- | :--------------: | :---------: |:---------:  |:---------:|
 |  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC     |  -|  micro-F1 |[GitHub](https://github.com/artpli/CodeIE)|
 |  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  | micro-F1 |  - |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
 |  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  | micro-F1  |  -|[GitHub](https://github.com/YucanGuo/Code4UIE)|
