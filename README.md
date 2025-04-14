@@ -338,6 +338,7 @@ This section provides a detailed introduction to two deep learning-based RE meth
 |  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | P R micro-F1 |[GitHub](https://github.com/hy-struggle/PRGC)|
 |  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | P R micro-F1  |
 |  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  | P R micro-F1 |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
+
 ## Relation extraction based on LLMs 
 Models targeting only RE tasks.
 ### Prompt-based Methods
