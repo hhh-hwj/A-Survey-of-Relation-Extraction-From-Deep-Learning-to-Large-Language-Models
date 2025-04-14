@@ -23,6 +23,9 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 - [Relation Extraction Open-source Tools](#Relation-Extraction-Open-source-Tools)
 
 # Problem Definition
+\textbf{Relation Classification} refers to the identification of the relation type between two given entities. 
+\textbf{Relation Triplet} refers to the identification of the relation type and the corresponding head and tail entity spans.
+\textbf{Relation Strict} refers to the identification of the correct relation type, the span of the entities, and the type of head and tail entities.
 
 # Datasets
 We have summarized the commonly used datasets for RE tasks through an extensive survey of the existing literature.To assist readers, the table includes the domain, dataset sizes, and corresponding links for each dataset.
