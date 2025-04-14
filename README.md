@@ -10,7 +10,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
 
     
 ## 📒 Table of Contents
-- [Problem Definition](#Problem Definition)
+- [Problem Definition](#Probe)
 - [Datasets](#Datasets)
 - [Evaluation Metrics](#Evaluation Metrics)
 - [Relation extraction based on deep learning](#Relation-extraction-based-on-deep-learning)
