@@ -129,13 +129,121 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center"><a href="https://github.com/DFKI-NLP/tacrev">Link</a></td>
         </tr>
         <tr>
-            <td align="center">TACREV</td>
-            <td align="center">News</td>
-            <td align="center">42</td>
-            <td align="center">68124</td>
-            <td align="center">22631</td>
-            <td align="center">15509</td>
-            <td align="center"><a href="https://github.com/DFKI-NLP/tacrev">Link</a></td>
+            <td align="center">DocRED</td>
+            <td align="center">Document-level</td>
+            <td align="center">96</td>
+            <td align="center">3053</td>
+            <td align="center">1000</td>
+            <td align="center">1000</td>
+            <td align="center"><a href="https://github.com/thunlp/DocRED">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">Re-DocRED </td>
+            <td align="center">Document-level</td>
+            <td align="center">96</td>
+            <td align="center">3053</td>
+            <td align="center">500</td>
+            <td align="center">500</td>
+            <td align="center"><a href="https://github.com/tonytan48/Re-DocRED">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">CodRED</td>
+            <td align="center">Document-level</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center"><a href="https://github.com/thunlp/CodREDv">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">DocRED-HWE</td>
+            <td align="center">Document-level</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center"><a href="https://github.com/Hytn/DocRED-HWE">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">REFinD  </td>
+            <td align="center">Finance </td>
+            <td align="center">22</td>
+            <td align="center">20070</td>
+            <td align="center">4306</td>
+            <td align="center">4300</td>
+            <td align="center"><a href="https://refind-re.github.io/index.html">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">MNRE</td>
+            <td align="center">Multi-modal</td>
+            <td align="center">31</td>
+            <td align="center">12247</td>
+            <td align="center">1624</td>
+            <td align="center">1614</td>
+            <td align="center"><a href="https://github.com/thecharm/MNRE">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">MNRE*</td>
+            <td align="center">Multi-modal</td>
+            <td align="center">23</td>
+            <td align="center">12247</td>
+            <td align="center">1624</td>
+            <td align="center">1614</td>
+            <td align="center"><a href="https://github.com/thecharm/Mega">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">CAIL</td>
+            <td align="center">Legal</td>
+            <td align="center">4 </td>
+            <td align="center">1400</td>
+            <td align="center">-</td>
+            <td align="center">250</td>
+            <td align="center"><a href="https://github.com/DUTIR-LegalIntelligence/JointExtraction4Legal">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">FewRel</td>
+            <td align="center">Low-resource</td>
+            <td align="center">100</td>
+            <td align="center"> 56000</td>
+            <td align="center">14000</td>
+            <td align="center">14000</td>
+            <td align="center"><a href="https://github.com/thunlp/FewRel">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">Wiki-ZSL</td>
+            <td align="center">Low-resource </td>
+            <td align="center">113</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center"><a href="https://github.com/dinobby/ZS-BERT">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">ADE</td>
+            <td align="center"> Biomedical</td>
+            <td align="center">1 </td>
+            <td align="center">3417 </td>
+            <td align="center"> 427</td>
+            <td align="center">428</td>
+            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">ChemProt</td>
+            <td align="center">Biochemical</td>
+            <td align="center">14</td>
+            <td align="center"> 19460 </td>
+            <td align="center">11820</td>
+            <td align="center">16943 </td>
+            <td align="center"><a href="https://github.com/allenai/scibert">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">DDI </td>
+            <td align="center">Biochemical </td>
+            <td align="center">5</td>
+            <td align="center">18,779</td>
+            <td align="center">7244</td>
+            <td align="center">5761</td>
+            <td align="center"><a href="https://github.com/albertrial/SemEval-2013-task-9">Link</a></td>
         </tr>
     </tbody>
 </table>
