@@ -255,7 +255,37 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
 </table>
 
 # Evaluation Metrics
-
+The core metrics for evaluating the performance of RE systems include precision (P), recall (R), and F1-score, which encompasses both Macro-F1 and Micro-F1. Precision is the proportion of true positives among all samples predicted as positive, while recall is the proportion of true positives correctly identified among all actual positives. The F1 score is the harmonic mean of precision and recall, balancing the trade-off between them. Micro-F1 is better for imbalanced datasets, as it aggregates true positive (TP), false positive (FP), and false negative (FN) across all classes, while Macro-F1 is more suited for balanced datasets, giving equal weight to each class. TP refers to samples correctly predicted as positive, FP refers to those incorrectly predicted as positive, and FN refers to actual positive samples predicted as negative, with \( \text{F1}_i \) representing the F1 score of the \( i \)-th class. The formulas for calculating the aforementioned metrics are given in equations (1) to (7).
+\[
+\text{Precision (P)} = \frac{\text{TP}}{\text{TP + FP}} \tag{1}
+\]
+\[
+\text{Recall (R)} = \frac{\text{TP}}{\text{TP + FN}} \tag{2}
+\]
+\[
+\text{F1} = 2 \times \frac{\text{P} \times \text{R}}{\text{P} + \text{R}} \tag{3}
+\]
+\[
+\text{Macro-F1} = \frac{1}{N} \sum_{i=1}^{N} \text{F1}_i \tag{4}
+\]
+\[
+\text{Micro-Precision (Micro-P)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FP}_i} 
+\tag{6}
+\]
+\[
+\text{Micro-Recall (Micro-R)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FN}_i} 
+\tag{6}
+\]
+\[
+\text{Micro-F1} = \frac{2 \times \text{Micro-P} \times \text{Micro-R}}{\text{Micro-P} + \text{Micro-R}}
+\tag{7}
+\]
+\begin{equation}
+    \text{Accuracy (ACC)} = \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}} \tag{8}
+\end{equation}
+\begin{equation}
+    \text{Ign-F1} = \frac{1}{|\mathcal{C}| - K} \sum_{\substack{c \in \mathcal{C} \\ c \notin \mathcal{I}}} \text{F1}_c \tag{9}
+\end{equation}
 
 # Relation extraction based on deep learning 
 This section provides a detailed introduction to two deep learning-based RE methods: pipeline-based and joint extraction-based methods.
