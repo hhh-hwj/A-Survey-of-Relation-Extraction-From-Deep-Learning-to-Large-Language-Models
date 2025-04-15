@@ -306,7 +306,7 @@ This section provides a detailed introduction to two deep learning-based RE meth
 |  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |  SemEval     |   P,R,Macro-F1    | 
 |  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval   |    Macro-F1     |   
 |  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/D13-1137/) |   SemEval   |Macro-F1      | 
-|  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval-2010 Task 8    | Macro-F1    | 
+|  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval    | Macro-F1    | 
 |  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/C16-1138/) |   SemEval  | Macro-F1     | 
 |  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/D15-1206/) |   SemEval    |Macro-F1    | 
 |  [Attention-based bidirectional long short-term memory networks for relation classification](https://aclanthology.org/P16-2034/))|   SemEval  | Macro-F1     | 
