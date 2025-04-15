@@ -396,13 +396,12 @@ Models targeting only RE tasks.
 |  [Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models](https://aclanthology.org/2023.emnlp-main.334/) |DocRED Re-DocRED |Document-level|P R  Micro-F1  |[GiHub](https://github.com/bigai-nlco/docgnre)
 |  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Document-level|P R  Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
 |  [AutoRE: Document-Level Relation Extraction with Large Language Models](https://aclanthology.org/2024.acl-demos.20/) |  Re-DocRED  |Document-level  |  micro-F1  |[GitHub](https://github.com/THUDM/AutoRE)
-|  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR  |-   |P R micro-F1 |
-|  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC   |-   | micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
-|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS |- | micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
-|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRED |- | P R micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
-|  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf)  | REBEL |-  |P R micro-F1 macro-F1  |
-|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/)  |  Re-DocRED  |- |P R micro-F1   |[GitHub](https://github.com/thudm/autore)|
-|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE  |-   | micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
+|  [InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction](https://arxiv.org/abs/2304.08085) |FewRel Wiki-ZSL |Multi-modal| Micro-F1  |[GiHub](https://github.com/BeyonderXX/InstructUIE)
+|  [ZS-BERT: Towards Zero-Shot Relation Extraction with Attribute Representation Learning](https://aclanthology.org/2021.naacl-main.272/)  |FewRel Wiki-ZSL|Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/dinobby/ZS-BERT)
+|  [Revisiting Large Language Models as Zero-shot Relation Extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |FewRel Wiki-ZSL|Multi-modal|P R  Micro-F1  |
+|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
+|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
+|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
 
 
 ## Relation Extraction Open-source Tools 
