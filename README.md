@@ -358,7 +358,6 @@ Models targeting only RE tasks.
 |  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |   P,R,Micro-F1 |[GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
 |  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|     P,R,Micro-F1  |    
 |  [Chatie: Zero-shot information extraction via chatting with ChatGPT](https://arxiv.org/abs/2302.10205) |   DuIE2.0#、NYT11-HRL  |  P R micro-F1 |  - |[GitHub](https://github.com/cocacola-lab/ChatIE)|
-|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | Micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
 |  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |  Micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)|
 |  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| Micro-F1  |
 |  [Retrieval-Augmented Generation-based Relation Extraction](https://arxiv.org/abs/2404.13397) |TACRED TACREV Re-TACRED SemEval| P,R,Micro-F1  |[GitHub](https://github.com/sefeoglu/RAG4RE)
@@ -369,15 +368,21 @@ Models targeting only RE tasks.
 |  Paper  |      Dataset     |Evaluation Metrics    |Code |
 | :----- | :--------------: | :---------: |:---------: |
 |  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |GCS  |P,R,F1   |
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  Micro-F1  |
+|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | Micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
+|  [Empowering Few-Shot Relation Extraction with The Integration of Traditional RE Methods and Large Language Models](https://dl.acm.org/doi/10.1007/978-981-97-5569-1_22)|  TACRED TACREV RE-TACRED  | Micro-F1  |[GitHub](https://github.com/liuyeah/dsare)|
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  Micro-F1  |[GitHub](https://github.com/BenfengXu/S2ynRE)
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |P,R,Micro-F1 |
+|  [S2ynRE: Two-stage Self-training with Synthetic data for Low-resource Relation Extraction](https://aclanthology.org/2023.acl-long.455/)|   SemEval  TACRED Re-TACRED  ChemProt |Accuracy,Micro-F1 |
 |  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    | Micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
 |  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS| Micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
 |  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRED| P,R,Micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
 |  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf)  | REBEL |P,R,Micro-F1,Macro-F1  |
 |  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/)  |  Re-DocRED |P,R,Micro-F1   |[GitHub](https://github.com/thudm/autore)|
-|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | Micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
-
+|  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
+|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | Micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|   
+|  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |P,R,Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
+|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|Chemprot DDI2013| Micro-F1  |
+|  [A Few-Shot Entity Relation Extraction Method in the Legal Domain Based on Large Language Models](https://dl.acm.org/doi/10.1145/3675417.3675513)|CAIL| Micro-F1  |
 
 ## Multi-domain relation extraction
 |  Paper  |      Dataset    |      Domain  |Evaluation Metrics    |Code |
@@ -400,7 +405,8 @@ Models targeting only RE tasks.
 |  [ZS-BERT: Towards Zero-Shot Relation Extraction with Attribute Representation Learning](https://aclanthology.org/2021.naacl-main.272/)  |FewRel Wiki-ZSL|Low-resource|P,R,Micro-F1   |[GitHub](https://github.com/dinobby/ZS-BERT)
 |  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) |REFinD|Specific domain|Micro-F1  |[GitHub](https://github.com/Upaya07/GPT-FinRE)
 |  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Specific domain| Micro-F1  |
-|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|CAIL|Specific domain| Micro-F1  |
+|  [A Few-Shot Entity Relation Extraction Method in the Legal Domain Based on Large Language Models](https://dl.acm.org/doi/10.1145/3675417.3675513)|CAIL|Specific domain| Micro-F1  |
+|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|Chemprot DDI2013|Specific domain| Micro-F1  |
 |  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |Specific domain|P,R,Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
 |  [An evaluation of DeepSeek Models in Biomedical Natural Language Processing](https://arxiv.org/abs/2503.00624) |DDI 2013 ChemProt  |Specific domain|P,R,Micro-F1|
 |  [Enhancing Relation Extraction from Biomedical Texts by Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-60615-1_1) |DDI 2013  ChemProt |Specific domain|P,R,Micro-F1  |
