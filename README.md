@@ -361,6 +361,9 @@ Models targeting only RE tasks.
 |  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
 |  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |  micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)|
 |  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| micro-F1  |
+|  [Retrieval-Augmented Generation-based Relation Extraction](https://arxiv.org/abs/2404.13397) |TACRED TACREV Re-TACRED SemEval| P R micro-F1  |[GitHub](https://github.com/sefeoglu/RAG4RE)
+|  [Event Temporal Relation Extraction based on Retrieval-Augmented on LLMs](https://ieeexplore.ieee.org/document/10651084) |TB-Dense TDDAuto  TDDMan| micro-F1  |
+|  [Document-level Clinical Entity and Relation extraction via Knowledge Base-Guided Generation](https://aclanthology.org/2024.bionlp-1.24/) |n2c2 Dataset、ADE| micro-F1  |
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    |Code |
@@ -384,7 +387,7 @@ Models targeting only RE tasks.
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR  |-   |P R micro-F1 |
 |  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC   |-   | micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
 |  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS |- | micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
-|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRE |- D| P R micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
+|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRED |- | P R micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
 |  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf)  | REBEL |-  |P R micro-F1 macro-F1  |
 |  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/)  |  Re-DocRED  |- |P R micro-F1   |[GitHub](https://github.com/thudm/autore)|
 |  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE  |-   | micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
