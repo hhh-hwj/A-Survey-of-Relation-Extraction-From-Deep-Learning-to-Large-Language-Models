@@ -406,6 +406,7 @@ Models targeting only RE tasks.
 |  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) |REFinD|Specific domain|Micro-F1  |[GitHub](https://github.com/Upaya07/GPT-FinRE)
 |  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Specific domain| Micro-F1  |
 |  [A Few-Shot Entity Relation Extraction Method in the Legal Domain Based on Large Language Models](https://dl.acm.org/doi/10.1145/3675417.3675513)|CAIL|Specific domain| Micro-F1  |
+|  [Are Large Language Models Ready for Healthcare? A Comparative Study on Clinical Language Understanding](https://proceedings.mlr.press/v219/wang23c.html)|Chemprot DDI2013|Specific domain| Micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)
 |  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|Chemprot DDI2013|Specific domain| Micro-F1  |
 |  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |Specific domain|P,R,Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
 |  [An evaluation of DeepSeek Models in Biomedical Natural Language Processing](https://arxiv.org/abs/2503.00624) |DDI 2013 ChemProt  |Specific domain|P,R,Micro-F1|
