@@ -385,13 +385,13 @@ Models targeting only RE tasks.
 |  [MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts](https://ieeexplore.ieee.org/document/9428274)|MNRE  |Multi-modal|P R Micro-F1   |[GitHub](https://github.com/thecharm/MNRE)|
 |  [Named Entity and Relation Extraction with Multi-Modal Retrieval](https://aclanthology.org/2022.findings-emnlp.437/) |MNRE |Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe)
 |  [Prompt Me Up: Unleashing the Power of Alignments for Multimodal Entity and Relation Extraction](https://dl.acm.org/doi/10.1145/3581783.3611899)  |MNRE |Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/THU-BPM/PROMU)
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE |Multi-modal|P R Micro-F1  |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE* |Multi-modal|P R Micro-F1  |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE* |Multi-modal|P R  Micro-F1 |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE* |Multi-modal|P R Micro-F1   |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE*  |Multi-modal|P R Micro-F1  |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE* |Multi-modal|P R  Micro-F1  |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE* |Multi-modal|P R  Micro-F1  |
+|  [Chain-of-Thought Prompt Distillation for Multimodal Named Entity Recognition and Multimodal Relation Extraction](https://arxiv.org/abs/2306.14122)  |MNRE |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/lastmile-ai/aiconfig)
+|  [Multimodal Relation Extraction with Efficient Graph Alignment](https://dl.acm.org/doi/10.1145/3474085.3476968)|MNRE* |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/thecharm/Mega)
+|  [Good Visual Guidance Make A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](https://aclanthology.org/2022.findings-naacl.121/) |MNRE* |Multi-modal|P R  Micro-F1 |[GitHub](https://github.com/zjunlp/HVPNeT)
+|  [RSRNeT: a novel multi-modal network framework for named entity recognition and relation extraction](https://peerj.com/articles/cs-1856/)|MNRE* |Multi-modal|P R Micro-F1   |
+|  [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3477495.3531992) |MNRE*  |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/zjunlp/MKGformer)
+|  [Multimodal Relation Extraction with Cross-Modal Retrieval and Synthesis](https://aclanthology.org/2023.acl-short.27/)  |MNRE* |Multi-modal|P R  Micro-F1  |
+|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
 |  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE*  |Multi-modal|P R  Micro-F1  |
 |  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |-  |  micro-F1  |
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR  |-   |P R micro-F1 |
