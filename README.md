@@ -304,106 +304,106 @@ This section provides a detailed introduction to two deep learning-based RE meth
 |  [Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |  Macro-F1     | [GitHub](https://github.com/FrankWork/acnn)|
 |  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/D15-1062/) |   SemEval-2010 Task 8    | Macro-F1       |  
 |  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |  SemEval-2010 Task 8     |   P,R,Macro-F1    | 
-|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval-2010 Task 8    |    macro-F1     |   
-|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/D13-1137/) |   SemEval-2010 Task 8    |macro-F1      | 
-|  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval-2010 Task 8    | macro-F1    | 
-|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/C16-1138/) |   SemEval-2010 Task 8   | macro-F1     | 
-|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/D15-1206/) |   SemEval-2010 Task 8    |macro-F1    | 
-|  [Attention-based bidirectional long short-term memory networks for relation classification](https://aclanthology.org/P16-2034/))|   SemEval-2010 Task 8   | macro-F1     | 
-|  [Attention-based lstm with filter mechanism for entity relation classification](https://www.mdpi.com/2073-8994/12/10/1729)|   SemEval-2010 Task 8     | macro-F1    | 
-|  [Direction-sensitive relation extraction using bi-sdp attention model](https://www.sciencedirect.com/science/article/abs/pii/S0950705120302628) |SemEval-2010 Task 8 | macro-F1     | 
-|  [A dependency-based neural network for relation classification](https://aclanthology.org/P15-2047.pdf) |   SemEval-2010 Task 8    | macro-F1     | 
-|  [Bidirectional recurrent convolutional neural network for relation classification](https://aclanthology.org/P16-1072/) |   SemEval-2010 Task 8    | macro-F1      | 
-|  [Neural relation classification with text descriptions](https://aclanthology.org/C18-1100/) |   SemEval-2010 Task 8    | P R macro-F1     | 
-|  [A combination of rnn and cnn for attention-based relation classification](https://www.sciencedirect.com/science/article/pii/S187705091830601X) | SemEval-2010 Task 8 | macro-F1       | 
-|  [A single attention-based combination of cnn and rnn for relation classification](https://ieeexplore.ieee.org/document/8606107) |   SemEval-2010 Task 8 |  macro-F1    | 
-|  [Relation classification using segment-level attention-based CNN and dependency-based RNN](https://aclanthology.org/N19-1286/) |   SemEval-2010 Task 8  |  macro-F1     | 
+|  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval-2010 Task 8    |    Macro-F1     |   
+|  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/D13-1137/) |   SemEval-2010 Task 8    |Macro-F1      | 
+|  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval-2010 Task 8    | Macro-F1    | 
+|  [Improved relation classification by deep recurrent neural networks with data augmentation](https://aclanthology.org/C16-1138/) |   SemEval-2010 Task 8   | Macro-F1     | 
+|  [Classifying relations via long short term memory networks along shortest dependency paths](https://aclanthology.org/D15-1206/) |   SemEval-2010 Task 8    |Macro-F1    | 
+|  [Attention-based bidirectional long short-term memory networks for relation classification](https://aclanthology.org/P16-2034/))|   SemEval-2010 Task 8   | Macro-F1     | 
+|  [Attention-based lstm with filter mechanism for entity relation classification](https://www.mdpi.com/2073-8994/12/10/1729)|   SemEval-2010 Task 8     | Macro-F1    | 
+|  [Direction-sensitive relation extraction using bi-sdp attention model](https://www.sciencedirect.com/science/article/abs/pii/S0950705120302628) |SemEval-2010 Task 8 | Macro-F1     | 
+|  [A dependency-based neural network for relation classification](https://aclanthology.org/P15-2047.pdf) |   SemEval-2010 Task 8    | Macro-F1     | 
+|  [Bidirectional recurrent convolutional neural network for relation classification](https://aclanthology.org/P16-1072/) |   SemEval-2010 Task 8    | Macro-F1      | 
+|  [Neural relation classification with text descriptions](https://aclanthology.org/C18-1100/) |   SemEval-2010 Task 8    | P,R,Macro-F1     | 
+|  [A combination of rnn and cnn for attention-based relation classification](https://www.sciencedirect.com/science/article/pii/S187705091830601X) | SemEval-2010 Task 8 | Macro-F1       | 
+|  [A single attention-based combination of cnn and rnn for relation classification](https://ieeexplore.ieee.org/document/8606107) |   SemEval-2010 Task 8 |  Macro-F1    | 
+|  [Relation classification using segment-level attention-based CNN and dependency-based RNN](https://aclanthology.org/N19-1286/) |   SemEval-2010 Task 8  |  Macro-F1     | 
 ## Joint Extraction-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    | Code |
 | :----- | :--------------: | :---------: |:---------: |
-|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04、SemEval-2010 Task 8     |P R micro-F1、macro-F1 | [GitHub](https://github.com/tticoin/LSTM-ER)|
-|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  | P R micro-F1  |
-|  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  | P R micro-F1  |
-|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   | P R micro-F1  |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
-|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     |   P R micro-F1  |
+|  [End-to-end relation extraction using LSTMs on sequences and tree structures](https://aclanthology.org/P16-1105/) |   ACE05、ACE04、SemEval-2010 Task 8     |P,R,Micro-F1,Macro-F1 | [GitHub](https://github.com/tticoin/LSTM-ER)|
+|  [Going out on a limb: Joint extraction of entity mentions and relations without dependency trees](https://aclanthology.org/P17-1085/)  |  ACE05  | P,R,Micro-F1  |
+|  [Joint entity and relation extraction based on a hybrid neural network](https://www.sciencedirect.com/science/article/abs/pii/S0925231217301613) | ACE05  | P,R,Micro-F1  |
+|  [Graphrel: Modeling text as relational graphs for joint entity and relation extraction](https://aclanthology.org/P19-1136/) |  NYT、WebNLG   | P,R,Micro-F1  |[GitHub](https://github.com/tsujuifu/pytorch_graph-rel)|
+|  [A relational adaptive neural model for joint entity and relation extraction](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2021.635492/full) |    NYT、WebNLG     |   P,R,Micro-F1  |
 |  [Entity-relation extraction as multi-turn question answering](https://aclanthology.org/P19-1129/)  |  ACE04、ACE05、CoNLL04   | P R micro-F1  |[GitHub](https://github.com/ShannonAI/Entity-Relation-As-Multi-Turn-QA)|
-|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   P R micro-F1 | [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
-|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |  P R micro-F1 |
-|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   | micro-F1  |
-|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |    P R micro-F1   |   
-|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   |  P R micro-F1  |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
-|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  | P R micro-F1   |
-|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     | P R micro-F1  |[GitHub](https://github.com/yubowen-ph/JointER)|
-|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |P R micro-F1  |[GitHub](https://github.com/weizhepei/CasRel)|
-|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG |P R micro-F1  |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
-|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | P R micro-F1 |[GitHub](https://github.com/hy-struggle/PRGC)|
-|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | P R micro-F1  |
-|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  | P R micro-F1 |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
-|  [A Novel Tensor Learning Model for Joint Relational Triplet Extraction](https://ieeexplore.ieee.org/document/10109187) | NYT、WebNLG  | P R micro-F1 |
-|  [WRTRe: Weighted relative position transformer for joint entity and relation extraction](https://dl.acm.org/doi/10.1016/j.neucom.2021.06.071) | NYT、WebNLG  | P R micro-F1 |
+|  [Two are better than one: Joint entity and relation extraction with table-sequence encoders](https://aclanthology.org/2020.emnlp-main.133/)| ACE04、ACE05、CoNLL04、ADE  |   P,R,Micro-F1 | [GitHub](https://github.com/LorrinWWW/two-are-better-than-one)|
+|  [Joint extraction of entities and overlapping relations using source-target entity labeling](https://www.sciencedirect.com/science/article/abs/pii/S0957417421002943) |   NYT、WebNLG    |  P,R,Micro-F1 |
+|  [A multigate encoder for joint entity and relation extraction](https://aclanthology.org/2022.ccl-1.75/) |   ACE04、ACE05、SciERC   | Micro-F1  |
+|  [Prta:joint extraction of medical nested entities and overlapping relation via parameter sharing progressive recognition and targeted assignment decoding scheme](https://www.sciencedirect.com/science/article/abs/pii/S0010482524006231) |   NYT、ACE04、 ACE05   |    P,R,Micro-F1   |   
+|  [Joint extraction of entities and relations based on a novel tagging scheme](https://aclanthology.org/P17-1113/) |    NYT   |  P,R,Micro-F1  |[GitHub](https://github.com/gswycf/Joint-Extraction-of-Entities-and-Relations-Based-on-a-Novel-Tagging-Scheme)|
+|  [Joint extraction of entities and overlapping relations using position-attentive sequence labeling](https://ojs.aaai.org/index.php/AAAI/article/view/4591))|   NYT  | P,R,Micro-F1   |
+|  [Joint extraction of entities and relations based on a novel decomposition strategy](https://www.nature.com/articles/s41598-024-51559-w)|    NYT、WebNLG     | P,R,Micro-F1  |[GitHub](https://github.com/yubowen-ph/JointER)|
+|  [A novel cascade binary tagging framework for relational triple extraction](https://aclanthology.org/2020.acl-main.136/) |NYT、WebNLG |P,R,Micro-F1  |[GitHub](https://github.com/weizhepei/CasRel)|
+|  [Tplinker: Single-stage joint extraction of entities and relations through token pair linking](https://aclanthology.org/2020.coling-main.138/) |   NYT、WebNLG |P,R,Micro-F1  |[GitHub](https://github.com/131250208/TPlinker-joint-extraction)|
+|  [PRGC: Potential relation and global correspondence based joint relational triple extraction](https://aclanthology.org/2021.acl-long.486/) |  NYT、WebNLG     | P,R,Micro-F1 |[GitHub](https://github.com/hy-struggle/PRGC)|
+|  [A simple overlapping relation extraction method based on dropout](https://ieeexplore.ieee.org/document/9892310) |   NYT、WebNLG    | P,R,Micro-F1  |
+|  [Onerel: Joint entity and relation extraction with one module in one step](https://arxiv.org/abs/2203.05412) | NYT、WebNLG  | P,R,Micro-F1 |[GitHub](https://github.com/China-ChallengeHub/OneRel)|
+|  [A Novel Tensor Learning Model for Joint Relational Triplet Extraction](https://ieeexplore.ieee.org/document/10109187) | NYT、WebNLG  | P,R,Micro-F1 |
+|  [WRTRe: Weighted relative position transformer for joint entity and relation extraction](https://dl.acm.org/doi/10.1016/j.neucom.2021.06.071) | NYT、WebNLG  | P,R,Micro-F1 |
 
 ## Relation extraction based on LLMs 
 Models targeting only RE tasks.
 ### Prompt-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics  | Code |
 | :----- | :--------------: | :---------: |:---------:|
-|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC    |  micro-F1 |[GitHub](https://github.com/artpli/CodeIE)|
-|  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  | micro-F1 |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
-|  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  | micro-F1|[GitHub](https://github.com/YucanGuo/Code4UIE)|
-|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/2024.findings-emnlp.590/)| CoNLL04 ACE05 NYT SciERC  |micro-F1  |
-|  [Zero-shot temporal relation extraction with ChatGPT](https://aclanthology.org/2023.bionlp-1.7/) |    TB-Dense、MATRES 、TDDMan | P R micro-F1  |  - |
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf)  |  ADE、NYT、CoNLL04   | micro-F1  |  - |
-|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED。SciERC、ACE05  |  micro-F1  |  [GitHub](https://github.com/YukinoWan/GPT-RE)|
-|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://aclanthology.org/2023.findings-emnlp.153/) | FewRel 1.0、 FewRel 2.0  |  accuracy |
-|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |   P R micro-F1 |[GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
-|  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|     P R micro-F1  |    
+|  [Codeie: Large code generation models are better few-shot information extractors](https://aclanthology.org/2023.acl-long.855.pdf)|   ACE05、CoNLL04、NYT、SciERC    |  Micro-F1 |[GitHub](https://github.com/artpli/CodeIE)|
+|  [Codekgc: Code language model for generative knowledge graph construction](https://dl.acm.org/doi/10.1145/3641850) |  ADE、CONLL04、SciERC  | Micro-F1 |[GitHub](https://github.com/zjunlp/DeepKE/blob/main/example/llm/CodeKGC/README_CN.md)|
+|  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  | Micro-F1|[GitHub](https://github.com/YucanGuo/Code4UIE)|
+|  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/2024.findings-emnlp.590/)| CoNLL04 ACE05 NYT SciERC  |Micro-F1  |
+|  [Zero-shot temporal relation extraction with ChatGPT](https://aclanthology.org/2023.bionlp-1.7/) |    TB-Dense、MATRES 、TDDMan | P,R,Micro-F1  |  - |
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf)  |  ADE、NYT、CoNLL04   | Micro-F1  |  - |
+|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED。SciERC、ACE05  |  Micro-F1  |  [GitHub](https://github.com/YukinoWan/GPT-RE)|
+|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://aclanthology.org/2023.findings-emnlp.153/) | FewRel 1.0、 FewRel 2.0  |  Accuracy |
+|  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |   P,R,Micro-F1 |[GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
+|  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|     P,R,Micro-F1  |    
 |  [Chatie: Zero-shot information extraction via chatting with ChatGPT](https://arxiv.org/abs/2302.10205) |   DuIE2.0#、NYT11-HRL  |  P R micro-F1 |  - |[GitHub](https://github.com/cocacola-lab/ChatIE)|
-|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
-|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |  micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)|
-|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| micro-F1  |
-|  [Retrieval-Augmented Generation-based Relation Extraction](https://arxiv.org/abs/2404.13397) |TACRED TACREV Re-TACRED SemEval| P R micro-F1  |[GitHub](https://github.com/sefeoglu/RAG4RE)
-|  [Event Temporal Relation Extraction based on Retrieval-Augmented on LLMs](https://ieeexplore.ieee.org/document/10651084) |TB-Dense TDDAuto  TDDMan| micro-F1  |
-|  [Document-level Clinical Entity and Relation extraction via Knowledge Base-Guided Generation](https://aclanthology.org/2024.bionlp-1.24/) |n2c2 Dataset、ADE| micro-F1  |
+|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | Micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
+|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |  Micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)|
+|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| Micro-F1  |
+|  [Retrieval-Augmented Generation-based Relation Extraction](https://arxiv.org/abs/2404.13397) |TACRED TACREV Re-TACRED SemEval| P,R,Micro-F1  |[GitHub](https://github.com/sefeoglu/RAG4RE)
+|  [Event Temporal Relation Extraction based on Retrieval-Augmented on LLMs](https://ieeexplore.ieee.org/document/10651084) |TB-Dense TDDAuto  TDDMan| Micro-F1  |
+|  [Document-level Clinical Entity and Relation extraction via Knowledge Base-Guided Generation](https://aclanthology.org/2024.bionlp-1.24/) |n2c2 Dataset、ADE| Micro-F1  |
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    |Code |
 | :----- | :--------------: | :---------: |:---------: |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |GCS  |P R F1   |
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  micro-F1  |
-|  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |P R micro-F1 |
-|  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    | micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
-|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS| micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
-|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRED| P R micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
-|  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf)  | REBEL |P R micro-F1 macro-F1  |
-|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/)  |  Re-DocRED |P R micro-F1   |[GitHub](https://github.com/thudm/autore)|
-|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
+|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |GCS  |P,R,F1   |
+|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  Micro-F1  |
+|  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |P,R,Micro-F1 |
+|  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    | Micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
+|  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS| Micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
+|  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRED| P,R,Micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
+|  [Do instruction-tuned large language models help with relation extraction?](https://ceur-ws.org/Vol-3577/paper15.pdf)  | REBEL |P,R,Micro-F1,Macro-F1  |
+|  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/)  |  Re-DocRED |P,R,Micro-F1   |[GitHub](https://github.com/thudm/autore)|
+|  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | Micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|     
 
 
 ## Multi-domain relation extraction
 |  Paper  |      Dataset    |      Domain  |Evaluation Metrics    |Code |
 | :----- | :--------------: | :---------: | :---------: |:---------: |
-|  [MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts](https://ieeexplore.ieee.org/document/9428274)|MNRE  |Multi-modal|P R Micro-F1   |[GitHub](https://github.com/thecharm/MNRE)|
-|  [Named Entity and Relation Extraction with Multi-Modal Retrieval](https://aclanthology.org/2022.findings-emnlp.437/) |MNRE |Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe)
-|  [Prompt Me Up: Unleashing the Power of Alignments for Multimodal Entity and Relation Extraction](https://dl.acm.org/doi/10.1145/3581783.3611899)  |MNRE |Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/THU-BPM/PROMU)
-|  [Chain-of-Thought Prompt Distillation for Multimodal Named Entity Recognition and Multimodal Relation Extraction](https://arxiv.org/abs/2306.14122)  |MNRE |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/lastmile-ai/aiconfig)
-|  [Multimodal Relation Extraction with Efficient Graph Alignment](https://dl.acm.org/doi/10.1145/3474085.3476968)|MNRE* |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/thecharm/Mega)
-|  [Good Visual Guidance Make A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](https://aclanthology.org/2022.findings-naacl.121/) |MNRE* |Multi-modal|P R  Micro-F1 |[GitHub](https://github.com/zjunlp/HVPNeT)
-|  [RSRNeT: a novel multi-modal network framework for named entity recognition and relation extraction](https://peerj.com/articles/cs-1856/)|MNRE* |Multi-modal|P R Micro-F1   |
-|  [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3477495.3531992) |MNRE*  |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/zjunlp/MKGformer)
-|  [Multimodal Relation Extraction with Cross-Modal Retrieval and Synthesis](https://aclanthology.org/2023.acl-short.27/)  |MNRE* |Multi-modal|P R  Micro-F1  |
-|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
+|  [MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts](https://ieeexplore.ieee.org/document/9428274)|MNRE  |Multi-modal|P,R,Micro-F1   |[GitHub](https://github.com/thecharm/MNRE)|
+|  [Named Entity and Relation Extraction with Multi-Modal Retrieval](https://aclanthology.org/2022.findings-emnlp.437/) |MNRE |Multi-modal|Micro-F1  |[GitHub](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe)
+|  [Prompt Me Up: Unleashing the Power of Alignments for Multimodal Entity and Relation Extraction](https://dl.acm.org/doi/10.1145/3581783.3611899)  |MNRE |Multi-modal|P,R,Micro-F1  |[GitHub](https://github.com/THU-BPM/PROMU)
+|  [Chain-of-Thought Prompt Distillation for Multimodal Named Entity Recognition and Multimodal Relation Extraction](https://arxiv.org/abs/2306.14122)  |MNRE |Multi-modal| Micro-F1  |[GitHub](https://github.com/lastmile-ai/aiconfig)
+|  [Multimodal Relation Extraction with Efficient Graph Alignment](https://dl.acm.org/doi/10.1145/3474085.3476968)|MNRE* |Multi-modal|P,R,Micro-F1  |[GitHub](https://github.com/thecharm/Mega)
+|  [Good Visual Guidance Make A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](https://aclanthology.org/2022.findings-naacl.121/) |MNRE* |Multi-modal|P,R,Micro-F1 |[GitHub](https://github.com/zjunlp/HVPNeT)
+|  [RSRNeT: a novel multi-modal network framework for named entity recognition and relation extraction](https://peerj.com/articles/cs-1856/)|MNRE* |Multi-modal|P,R,Micro-F1 |
+|  [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3477495.3531992) |MNRE*  |Multi-modal|P,R,Micro-F1  |[GitHub](https://github.com/zjunlp/MKGformer)
+|  [Multimodal Relation Extraction with Cross-Modal Retrieval and Synthesis](https://aclanthology.org/2023.acl-short.27/)  |MNRE* |Multi-modal|P,R,Micro-F1  |
+|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P,R,Micro-F1 |
 |  [Document-Level In-Context Few-Shot Relation Extraction via Pre-Trained Language Models](https://arxiv.org/abs/2310.11085)  |DocRED |Document-level|Micro-F1  |[GiHub](https://github.com/oezyurty/replm)
-|  [Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models](https://aclanthology.org/2023.emnlp-main.334/) |DocRED Re-DocRED |Document-level|P R  Micro-F1  |[GiHub](https://github.com/bigai-nlco/docgnre)
-|  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Document-level|P R  Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
-|  [AutoRE: Document-Level Relation Extraction with Large Language Models](https://aclanthology.org/2024.acl-demos.20/) |  Re-DocRED  |Document-level  |  micro-F1  |[GitHub](https://github.com/THUDM/AutoRE)
-|  [InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction](https://arxiv.org/abs/2304.08085) |FewRel Wiki-ZSL |Multi-modal| Micro-F1  |[GiHub](https://github.com/BeyonderXX/InstructUIE)
-|  [ZS-BERT: Towards Zero-Shot Relation Extraction with Attribute Representation Learning](https://aclanthology.org/2021.naacl-main.272/)  |FewRel Wiki-ZSL|Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/dinobby/ZS-BERT)
-|  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) |REFinD|Specific domain|P R  Micro-F1  |[GitHub](https://github.com/Upaya07/GPT-FinRE)
-|  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Specific domain|P R  Micro-F1  |
-|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|CAIL|Specific domain|P R  Micro-F1  |
-|  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |Specific domain|P R  Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
-|  [An evaluation of DeepSeek Models in Biomedical Natural Language Processing](https://arxiv.org/abs/2503.00624) |DDI 2013 ChemProt  |Specific domain|P R  Micro-F1  |
-|  [Enhancing Relation Extraction from Biomedical Texts by Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-60615-1_1) |DDI 2013  ChemProt |Specific domain|P R  Micro-F1  |
+|  [Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models](https://aclanthology.org/2023.emnlp-main.334/) |DocRED Re-DocRED |Document-level|P,R,Micro-F1 |[GiHub](https://github.com/bigai-nlco/docgnre)
+|  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Document-level|Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
+|  [AutoRE: Document-Level Relation Extraction with Large Language Models](https://aclanthology.org/2024.acl-demos.20/) |  Re-DocRED  |Document-level  |  P,R,Micro-F1 |[GitHub](https://github.com/THUDM/AutoRE)
+|  [InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction](https://arxiv.org/abs/2304.08085) |FewRel Wiki-ZSL |Low-resource| Micro-F1  |[GiHub](https://github.com/BeyonderXX/InstructUIE)
+|  [ZS-BERT: Towards Zero-Shot Relation Extraction with Attribute Representation Learning](https://aclanthology.org/2021.naacl-main.272/)  |FewRel Wiki-ZSL|Low-resource|P,R,Micro-F1   |[GitHub](https://github.com/dinobby/ZS-BERT)
+|  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) |REFinD|Specific domain|Micro-F1  |[GitHub](https://github.com/Upaya07/GPT-FinRE)
+|  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Specific domain| Micro-F1  |
+|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|CAIL|Specific domain| Micro-F1  |
+|  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |Specific domain|P,R,Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
+|  [An evaluation of DeepSeek Models in Biomedical Natural Language Processing](https://arxiv.org/abs/2503.00624) |DDI 2013 ChemProt  |Specific domain|P,R,Micro-F1|
+|  [Enhancing Relation Extraction from Biomedical Texts by Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-60615-1_1) |DDI 2013  ChemProt |Specific domain|P,R,Micro-F1  |
 
 
 ## Relation Extraction Open-source Tools 
