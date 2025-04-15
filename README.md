@@ -398,10 +398,12 @@ Models targeting only RE tasks.
 |  [AutoRE: Document-Level Relation Extraction with Large Language Models](https://aclanthology.org/2024.acl-demos.20/) |  Re-DocRED  |Document-level  |  micro-F1  |[GitHub](https://github.com/THUDM/AutoRE)
 |  [InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction](https://arxiv.org/abs/2304.08085) |FewRel Wiki-ZSL |Multi-modal| Micro-F1  |[GiHub](https://github.com/BeyonderXX/InstructUIE)
 |  [ZS-BERT: Towards Zero-Shot Relation Extraction with Attribute Representation Learning](https://aclanthology.org/2021.naacl-main.272/)  |FewRel Wiki-ZSL|Multi-modal|P R  Micro-F1  |[GitHub](https://github.com/dinobby/ZS-BERT)
-|  [Revisiting Large Language Models as Zero-shot Relation Extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |FewRel Wiki-ZSL|Multi-modal|P R  Micro-F1  |
-|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
-|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
-|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
+|  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) |REFinD|Specific domain|P R  Micro-F1  |[GitHub](https://github.com/Upaya07/GPT-FinRE)
+|  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Specific domain|P R  Micro-F1  |
+|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|CAIL|Specific domain|P R  Micro-F1  |
+|  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |Specific domain|P R  Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
+|  [An evaluation of DeepSeek Models in Biomedical Natural Language Processing](https://arxiv.org/abs/2503.00624) |DDI 2013 ChemProt  |Specific domain|P R  Micro-F1  |
+|  [Enhancing Relation Extraction from Biomedical Texts by Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-60615-1_1) |DDI 2013  ChemProt |Specific domain|P R  Micro-F1  |
 
 
 ## Relation Extraction Open-source Tools 
