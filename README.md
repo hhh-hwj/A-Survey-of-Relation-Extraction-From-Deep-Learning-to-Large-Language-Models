@@ -298,12 +298,12 @@ This section provides a detailed introduction to two deep learning-based RE meth
 ## Pipeline-based Methods
 |  Paper  |      Dataset | Evaluation Metrics    | Code |
 | :----- | :--------------: |:---------: | :---------: |
-|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      | macro-F1     |  [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
-|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  | SemEval-2010 Task 8  |P R macro-F1     | 
-|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  | SemEval-2010 Task 8   | P R macro-F1      | [GitHub](https://github.com/onehaitao/CR-CNN-relation-extraction)|
-|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |  macro-F1     | [GitHub](https://github.com/FrankWork/acnn)|
-|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/D15-1062/) |   SemEval-2010 Task 8    | macro-F1       |  
-|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |  SemEval-2010 Task 8     |   P R macro-F1    | 
+|  [Relation classification via convolutional deep neural network](https://aclanthology.org/C14-1220/)  |   SemEval-2010 Task 8      | Macro-F1     |  [GitHub](https://github.com/onehaitao/CNN-relation-extraction)|
+|  [Relation extraction: Perspective from convolutional neural networks](https://aclanthology.org/W15-1506/)  | SemEval-2010 Task 8  |P,R,Macro-F1     | 
+|  [Classifying relations by ranking with convolutional neural networks](https://aclanthology.org/P15-1061/)  | SemEval-2010 Task 8   | P,R,Macro-F1      | [GitHub](https://github.com/onehaitao/CR-CNN-relation-extraction)|
+|  [Relation classification via multi-level attention CNNs](https://aclanthology.org/P16-1123/)  |  SemEval-2010 Task 8   |  Macro-F1     | [GitHub](https://github.com/FrankWork/acnn)|
+|  [Semantic relation classification via convolutional neural networks with simple negative sampling](https://aclanthology.org/D15-1062/) |   SemEval-2010 Task 8    | Macro-F1       |  
+|  [Knowledge-oriented convolutional neural network for causal relation extraction from natural language texts](https://www.sciencedirect.com/science/article/abs/pii/S0957417418305177)  |  SemEval-2010 Task 8     |   P,R,Macro-F1    | 
 |  [Semantic compositionality through recursive matrix-vector spaces](https://aclanthology.org/D12-1110/)|   SemEval-2010 Task 8    |    macro-F1     |   
 |  [Simple customization of recursive neural networks for semantic relation classification](https://aclanthology.org/D13-1137/) |   SemEval-2010 Task 8    |macro-F1      | 
 |  [Chain based rnn for relation classification](https://aclanthology.org/N15-1133.pdf) |   SemEval-2010 Task 8    | macro-F1    | 
