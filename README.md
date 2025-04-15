@@ -392,8 +392,10 @@ Models targeting only RE tasks.
 |  [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3477495.3531992) |MNRE*  |Multi-modal|P R Micro-F1  |[GitHub](https://github.com/zjunlp/MKGformer)
 |  [Multimodal Relation Extraction with Cross-Modal Retrieval and Synthesis](https://aclanthology.org/2023.acl-short.27/)  |MNRE* |Multi-modal|P R  Micro-F1  |
 |  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P R  Micro-F1  |
-|  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |MNRE*  |Multi-modal|P R  Micro-F1  |
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |-  |  micro-F1  |
+|  [Document-Level In-Context Few-Shot Relation Extraction via Pre-Trained Language Models](https://arxiv.org/abs/2310.11085)  |DocRED |Document-level|Micro-F1  |[GiHub](https://github.com/oezyurty/replm)
+|  [Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models](https://aclanthology.org/2023.emnlp-main.334/) |DocRED Re-DocRED |Document-level|P R  Micro-F1  |[GiHub](https://github.com/bigai-nlco/docgnre)
+|  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Document-level|P R  Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
+|  [AutoRE: Document-Level Relation Extraction with Large Language Models](https://aclanthology.org/2024.acl-demos.20/) |  Re-DocRED  |Document-level  |  micro-F1  |[GitHub](https://github.com/THUDM/AutoRE)
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR  |-   |P R micro-F1 |
 |  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC   |-   | micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
 |  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS |- | micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
