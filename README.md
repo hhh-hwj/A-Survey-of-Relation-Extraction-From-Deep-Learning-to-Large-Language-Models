@@ -285,13 +285,6 @@ $$\text{Micro-Recall (Micro-R)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}
 $$\text{Micro-F1} = \frac{2 \times \text{Micro-P} \times \text{Micro-R}}{\text{Micro-P} + \text{Micro-R}} \tag{8}$$
 \]
 
-\[
-$$\text{Accuracy (ACC)} = \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}} \tag{9}$$
-\]
-
-\[
-$$\text{Ign-F1} = \frac{1}{|\mathcal{C}| - K} \sum_{\substack{c \in \mathcal{C} \\ c \notin \mathcal{I}}} \text{F1}_c \tag{10}$$
-\]
 
 # Relation extraction based on deep learning 
 This section provides a detailed introduction to two deep learning-based RE methods: pipeline-based and joint extraction-based methods.
