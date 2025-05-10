@@ -294,6 +294,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         <tr>
             <th align="center">Model</th>
             <th align="center">Size</th>
+            <th align="center">Base model</th>
             <th align="center">Release Time</th>
             <th align="center">Open Source</th>
             <th align="center">Link</th>
@@ -301,81 +302,115 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
     </thead>
     <tbody>
         <tr>
-            <td align="center">BERT</td>
-            <td align="center">110M, 340M</td>
+            <td align="center">BERT-base</td>
+            <td align="center">110M</td>
+            <td align="center">-</td>
             <td align="center">2018</td>
             <td align="center">✓</td>
-            <td align="center"><a href="https://aclanthology.org/S10-1006/">Link</a></td>
+            <td align="center"><a href="https://huggingface.co/google-bert/bert-base-uncased">Link</a></td>
         </tr>
         <tr>
-            <td align="center">RoBERTa</td>
+            <td align="center">RoBERTa-large</td>
             <td align="center">355M</td>
+            <td align="center">-</td>
             <td align="center">2019</td>
             <td align="center">✓</td>
-            <td align="center"><a href="https://catalog.ldc.upenn.edu/LDC2006T06">Link</a></td>
+            <td align="center"><a href="https://huggingface.co/FacebookAI/roberta-large">Link</a></td>
         </tr>
-        <tr>
-            <td align="center">T5</td>
-            <td align="center">223M</td>
-            <td align="center">2019</td>
-            <td align="center">✓</td>
-            <td align="center"><a href="https://cogcomp.seas.upenn.edu/page/resource view/43">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">NYT</td>
-            <td align="center">News</td>
-            <td align="center">24</td>
-            <td align="center">56195</td>
-            <td align="center"><a href="https://iesl.cs.umass.edu/riedel/ecml/">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">BART</td>
+         <tr>
+            <td align="center">BART-base</td>
             <td align="center">139M</td>
+            <td align="center">-</td>
             <td align="center">2019</td>
             <td align="center">✓</td>
-            <td align="center"><a href="https://github.com/weizhepei/CasRel/tree/master/data/WebNLG">Link</a></td>
+            <td align="center"><a href="https://huggingface.co/facebook/bart-base">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">T5-large</td>
+            <td align="center">738M</td>
+            <td align="center">-</td>
+            <td align="center">2020</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/google-t5/t5-large">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">Flan T5-XL </td>
+            <td align="center">2.85B</td>
+            <td align="center">T5</td>
+            <td align="center">2022</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/google/flan-t5-xl">Link</a></td>
         </tr>
         <tr>
             <td align="center">GPT-3</td>
             <td align="center">175B</td>
+            <td align="center">-</td>
             <td align="center">2020</td>
             <td align="center">×</td>
             <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">CODEX</td>
-            <td align="center">12B</td>
-            <td align="center">2021</td>
-            <td align="center">✓</td>
-            <td align="center"><a href="https://nlp.cs.washington.edu/sciIE/">Link</a></td>
+            <td align="center">Text-davinci-003</td>
+            <td align="center">-</td>
+            <td align="center">GPT-3</td>
+            <td align="center">2020</td>
+            <td align="center">×</td>
+            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">GPT-4</td>
+            <td align="center">GPT-3.5-turbo series</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">2020</td>
+            <td align="center">×</td>
+            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">GPT-4 series</td>
             <td align="center">-</td>
             <td align="center">2023</td>
             <td align="center">×</td>
             <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">Mistral-7B</td>
-            <td align="center">7.3B</td>
+            <td align="center">CodeLlama-34B</td>
+            <td align="center">33.7B</td>
+            <td align="center">-</td>
             <td align="center">2023</td>
             <td align="center">✓</td>
-            <td align="center"><a href="https://github.com/gstoica27/Re-TACRED">Link</a></td>
+            <td align="center"><a href="https://huggingface.co/meta-llama/CodeLlama-34b-hf">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">Mistral-7B</td>
+            <td align="center">7.24B</td>
+            <td align="center">-</td>
+            <td align="center">2023</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/mistralai">Link</a></td>
         </tr>
         <tr>
             <td align="center">LLaMA3.1-8B</td>
-            <td align="center">News</td>
-            <td align="center">42</td>
-            <td align="center">68124</td>
-            <td align="center"><a href="https://github.com/DFKI-NLP/tacrev">Link</a></td>
+            <td align="center">8.03B</td>
+            <td align="center">-</td>
+            <td align="center">2024</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct">Link</a></td>
         </tr>
         <tr>
-            <td align="center">DocRED</td>
-            <td align="center">Document-level</td>
-            <td align="center">96</td>
-            <td align="center">3053</td>
-            <td align="center"><a href="https://github.com/thunlp/DocRED">Link</a></td>
+            <td align="center">Deepseek-R1 series</td>
+            <td align="center">685B</td>
+            <td align="center">-</td>
+            <td align="center">2025</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/deepseek-ai/DeepSeek-R1">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">Gemini series</td>
+            <td align="center">-</td>
+            <td align="center">-</td>
+            <td align="center">2023</td>
+            <td align="center">×</td>
+            <td align="center"><a href="https://huggingface.co/deepseek-ai/DeepSeek-R1">Link</a></td>
         </tr>
     </tbody>
 </table>
