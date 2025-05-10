@@ -295,7 +295,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <th align="center">Model</th>
             <th align="center">Size</th>
             <th align="center">Release Time</th>
-            <th align="center">Publicly Availablen</th>
+            <th align="center">Open Source</th>
             <th align="center">Link</th>
         </tr>
     </thead>
@@ -326,7 +326,6 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">News</td>
             <td align="center">24</td>
             <td align="center">56195</td>
-            <td align="center">5000</td>
             <td align="center"><a href="https://iesl.cs.umass.edu/riedel/ecml/">Link</a></td>
         </tr>
         <tr>
