@@ -492,7 +492,7 @@ Models targeting only RE tasks.
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    |Code |
-| :----- | :--------------: | :---------: |:---------: |
+| :--------------------- | :---------: | :---------: |:---------: |
 |  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |GCS  |P,R,F1   |
 |  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  Micro-F1  |[GitHub](https://github.com/BenfengXu/S2ynRE)
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |P,R,Micro-F1 |
