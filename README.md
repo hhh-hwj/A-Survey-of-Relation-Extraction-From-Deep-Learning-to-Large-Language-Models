@@ -344,7 +344,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         <tr>
             <td align="center">CodeLlama-34B</td>
             <td align="center">33.7B</td>
-            <td align="center">-</td>
+            <td align="center">llama2</td>
             <td align="center">2023</td>
             <td align="center">✓</td>
             <td align="center"><a href="https://huggingface.co/meta-llama/CodeLlama-34b-hf">Link</a></td>
@@ -371,15 +371,15 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">-</td>
             <td align="center">2020</td>
             <td align="center">×</td>
-            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
+            <td align="center"><a href="https://openai.com/api/">Link</a></td>
         </tr>
         <tr>
             <td align="center">Text-davinci-003</td>
             <td align="center">-</td>
             <td align="center">GPT-3</td>
-            <td align="center">2020</td>
+            <td align="center">2022</td>
             <td align="center">×</td>
-            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
+            <td align="center"><a href="https://openai.com/api/">Link</a></td>
         </tr>
         <tr>
             <td align="center">GPT-3.5-turbo series</td>
@@ -387,7 +387,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">-</td>
             <td align="center">2020</td>
             <td align="center">×</td>
-            <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
+            <td align="center"><a href="https://openai.com/api/">Link</a></td>
         </tr>
         <tr>
             <td align="center">GPT-4 series</td>
@@ -395,7 +395,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">-</td>
             <td align="center">2023</td>
             <td align="center">×</td>
-            <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
+            <td align="center"><a href="https://openai.com/api/">Link</a></td>
         </tr>
         <tr>
             <td align="center">Deepseek-R1 series</td>
@@ -411,7 +411,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">-</td>
             <td align="center">2023</td>
             <td align="center">×</td>
-            <td align="center"><a href="https://huggingface.co/deepseek-ai/DeepSeek-R1">Link</a></td>
+            <td align="center"><a href="https://deepmind.google/technologies/gemini/">Link</a></td>
         </tr>
     </tbody>
 </table>
