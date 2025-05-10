@@ -475,27 +475,31 @@ Models targeting only RE tasks.
 |  [Retrieval-augmented code generation for universal information extraction](https://link.springer.com/chapter/10.1007/978-981-97-9434-8_3) | ACE05、ADE、CoNLL04、NYT  | Micro-F1|[GitHub](https://github.com/YucanGuo/Code4UIE)|
 |  [C-ICL: Contrastive in-context learning for information extraction](https://aclanthology.org/2024.findings-emnlp.590/)| CoNLL04 ACE05 NYT SciERC  |Micro-F1  |
 |  [Zero-shot temporal relation extraction with ChatGPT](https://aclanthology.org/2023.bionlp-1.7/) |    TB-Dense、MATRES 、TDDMan | P,R,Micro-F1  |  - |
-|  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf)  |  ADE、NYT、CoNLL04   | Micro-F1  |  - |
-|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED。SciERC、ACE05  |  Micro-F1  |  [GitHub](https://github.com/YukinoWan/GPT-RE)|
-|  [Chain of thought with explicit evidence reasoning for few-shot relation extraction](https://aclanthology.org/2023.findings-emnlp.153/) | FewRel 1.0、 FewRel 2.0  |  Accuracy |
+|  [GPT-RE: in-context learning for relation extraction using large language models](https://aclanthology.org/2023.emnlp-main.214.pdf)| Semeval、TACRED、SciERC、ACE05  |  Micro-F1  |  [GitHub](https://github.com/YukinoWan/GPT-RE)|
+|  [Chain of Thought with Explicit Evidence Reasoning for Few-shot Relation Extraction](https://aclanthology.org/2023.emnlp-main.214.pdf)| FewRel   |  Accuracy  |  [GitHub](https://aclanthology.org/2023.findings-emnlp.153.pdf)|
 |  [Aligning instruction tasks unlocks large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-acl.50.pdf) |   TACRED、RETACRED、TACREV、SemEval    |   P,R,Micro-F1 |[GitHub](https://github.com/OSU-NLP-Group/QA4RE)|
+|  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Micro-F1  |
 |  [Revisiting large language models as zero-shot relation extractors](https://aclanthology.org/2023.findings-emnlp.459v2.pdf) |   FewRel、TACRED、TACREV、Re-TACRED|     P,R,Micro-F1  |    
-|  [Chatie: Zero-shot information extraction via chatting with ChatGPT](https://arxiv.org/abs/2302.10205) |   DuIE2.0#、NYT11-HRL  |  P R micro-F1 |  - |[GitHub](https://github.com/cocacola-lab/ChatIE)|
-|  [Are large language models ready for healthcare? a comparative study on clinical language understanding](https://proceedings.mlr.press/v219/wang23c.html)|   i2b2 2010-Relation、SemEval 2013-DDI     |  Micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)|
-|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| Micro-F1  |
+|  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) | REFinD|   Micro-F1  |  [GitHub](https://github.com/Upaya07/GPT-FinRE)|
+|  [Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models](https://aclanthology.org/2023.emnlp-main.334/) | DocRE|   P,R,Micro-F1  |  [GitHub](https://github.com/bigai-nlco/DocGNRE)|
+|  [Construction and Canonicalization of Economic Knowledge Graphs with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-81221-7_23) |   self-build  |  P R micro-F1 |  
 |  [Retrieval-Augmented Generation-based Relation Extraction](https://arxiv.org/abs/2404.13397) |TACRED TACREV Re-TACRED SemEval| P,R,Micro-F1  |[GitHub](https://github.com/sefeoglu/RAG4RE)
 |  [Event Temporal Relation Extraction based on Retrieval-Augmented on LLMs](https://ieeexplore.ieee.org/document/10651084) |TB-Dense TDDAuto  TDDMan| Micro-F1  |
 |  [Document-level Clinical Entity and Relation extraction via Knowledge Base-Guided Generation](https://aclanthology.org/2024.bionlp-1.24/) |n2c2 Dataset、ADE| Micro-F1  |
+|  [Construction of a Maritime Knowledge Graph Using GraphRAG for Entity and Relationship Extraction from Maritime Documents](https://www.scirp.org/journal/paperinformation?paperid=140766) |self-build| F1  |
+|  [Unlocking instructive in-context learning with tabular prompting for relational triple extraction](https://aclanthology.org/2024.lrec-main.1488/) |CoNLL04、NYT| Micro-F1  |
+|  [Document-Level In-Context Few-Shot Relation Extraction via Pre-Trained Language Models](https://arxiv.org/abs/2310.11085)  |DocRED |Micro-F1  |[GiHub](https://github.com/oezyurty/replm)
 
 ### Fine-tuning-based Methods
 |  Paper  |      Dataset     |Evaluation Metrics    |Code |
 | :----- | :--------------: | :---------: |:---------: |
 |  [Leveraging pre-trained language models for mining microbiome-disease relationships](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z)  |GCS  |P,R,F1   |
-|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | Micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
-|  [Empowering Few-Shot Relation Extraction with The Integration of Traditional RE Methods and Large Language Models](https://dl.acm.org/doi/10.1007/978-981-97-5569-1_22)|  TACRED TACREV RE-TACRED  | Micro-F1  |[GitHub](https://github.com/liuyeah/dsare)|
 |  [Revisiting relation extraction in the era of large language models](https://aclanthology.org/2023.acl-long.868.pdf) |  CONLL04、ADE、NYT  |  Micro-F1  |[GitHub](https://github.com/BenfengXu/S2ynRE)
 |  [Does synthetic data generation of llms help clinical text mining?](https://arxiv.org/abs/2303.04360)|  GAD、EU-ADR   |P,R,Micro-F1 |
 |  [S2ynRE: Two-stage Self-training with Synthetic data for Low-resource Relation Extraction](https://aclanthology.org/2023.acl-long.455/)|   SemEval  TACRED Re-TACRED  ChemProt |Accuracy,Micro-F1 |
+|  [How to unleash the power of large language models for few-shot relation extraction?](https://aclanthology.org/2023.sustainlp-1.13/)|  TACRED TACREV RE-TACRED SciERC  | Micro-F1  |[GitHub](https://github.com/zjunlp/DeepKE/tree/main/example/llm/UnleashLLMRE)|
+|  [Empowering Few-Shot Relation Extraction with The Integration of Traditional RE Methods and Large Language Models](https://dl.acm.org/doi/10.1007/978-981-97-5569-1_22)|  TACRED TACREV RE-TACRED  | Micro-F1  |[GitHub](https://github.com/liuyeah/dsare)|
+|  [Towards Generating High-Quality Knowledge Graphs by Leveraging Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-70239-6_31)|  Self-built|Macro-F1 |
 |  [Unified structure generation for universal information extraction](https://aclanthology.org/2022.acl-long.395/) |   ACE05、NYT、WebNLG、SciERC    | Micro-F1  |[GitHub](https://github.com/universal-ie/UIE)|
 |  [Instructuie: Multi-task instruction tuning for unified information extraction](https://arxiv.org/abs/2304.08085)  |  ACE04、ACE05、CoNLL04、ADE、semeval、GIDS| Micro-F1 |[GitHub](https://github.com/beyonderxx/instructuie)|
 |  [REBEL: Relation extraction by end-to-end language generation](https://aclanthology.org/2021.findings-emnlp.204/)| CONLL04、NYT、DocRED、ADE、Re-TACRED| P,R,Micro-F1  | [GitHub](https://github.com/Babelscape/rebel)|
@@ -503,37 +507,26 @@ Models targeting only RE tasks.
 |  [AutoRE: Document-level relation extraction with large language models](https://aclanthology.org/2024.acl-demos.20/)  |  Re-DocRED |P,R,Micro-F1   |[GitHub](https://github.com/thudm/autore)|
 |  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
 |  [Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks](https://arxiv.org/abs/2311.11608) |   BC5CDR、CMeIE   | Micro-F1  |[GitHub](https://github.com/dutir-bionlp/taiyi-llm)|   
-|  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |P,R,Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
 |  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|Chemprot DDI2013| Micro-F1  |
 |  [A Few-Shot Entity Relation Extraction Method in the Legal Domain Based on Large Language Models](https://dl.acm.org/doi/10.1145/3675417.3675513)|CAIL| Micro-F1  |
 
 ## Multi-domain relation extraction
-|  Paper  |      Dataset    |      Domain  |Evaluation Metrics    |Code |
-| :----- | :--------------: | :---------: | :---------: |:---------: |
-|  [MNRE: A Challenge Multimodal Dataset for Neural Relation Extraction with Visual Evidence in Social Media Posts](https://ieeexplore.ieee.org/document/9428274)|MNRE  |Multi-modal|P,R,Micro-F1   |[GitHub](https://github.com/thecharm/MNRE)|
-|  [Named Entity and Relation Extraction with Multi-Modal Retrieval](https://aclanthology.org/2022.findings-emnlp.437/) |MNRE |Multi-modal|Micro-F1  |[GitHub](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe)
-|  [Prompt Me Up: Unleashing the Power of Alignments for Multimodal Entity and Relation Extraction](https://dl.acm.org/doi/10.1145/3581783.3611899)  |MNRE |Multi-modal|P,R,Micro-F1  |[GitHub](https://github.com/THU-BPM/PROMU)
-|  [Chain-of-Thought Prompt Distillation for Multimodal Named Entity Recognition and Multimodal Relation Extraction](https://arxiv.org/abs/2306.14122)  |MNRE |Multi-modal| Micro-F1  |[GitHub](https://github.com/lastmile-ai/aiconfig)
-|  [Multimodal Relation Extraction with Efficient Graph Alignment](https://dl.acm.org/doi/10.1145/3474085.3476968)|MNRE* |Multi-modal|P,R,Micro-F1  |[GitHub](https://github.com/thecharm/Mega)
-|  [Good Visual Guidance Make A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](https://aclanthology.org/2022.findings-naacl.121/) |MNRE* |Multi-modal|P,R,Micro-F1 |[GitHub](https://github.com/zjunlp/HVPNeT)
-|  [RSRNeT: a novel multi-modal network framework for named entity recognition and relation extraction](https://peerj.com/articles/cs-1856/)|MNRE* |Multi-modal|P,R,Micro-F1 |
-|  [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3477495.3531992) |MNRE*  |Multi-modal|P,R,Micro-F1  |[GitHub](https://github.com/zjunlp/MKGformer)
-|  [Multimodal Relation Extraction with Cross-Modal Retrieval and Synthesis](https://aclanthology.org/2023.acl-short.27/)  |MNRE* |Multi-modal|P,R,Micro-F1  |
-|  [Enhancing Multimodal Entity and Relation Extraction With Variational Information Bottleneck](https://dl.acm.org/doi/abs/10.1109/TASLP.2023.3345146)  |MNRE* |Multi-modal|P,R,Micro-F1 |
-|  [Document-Level In-Context Few-Shot Relation Extraction via Pre-Trained Language Models](https://arxiv.org/abs/2310.11085)  |DocRED |Document-level|Micro-F1  |[GiHub](https://github.com/oezyurty/replm)
-|  [Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models](https://aclanthology.org/2023.emnlp-main.334/) |DocRED Re-DocRED |Document-level|P,R,Micro-F1 |[GiHub](https://github.com/bigai-nlco/docgnre)
-|  [LLM with Relation Classifier for Document-Level Relation Extraction](https://arxiv.org/abs/2408.13889) |DocRED Re-DocRED  |Document-level|Micro-F1  |[GiHub](https://github.com/wisper12933/LMRC)
-|  [AutoRE: Document-Level Relation Extraction with Large Language Models](https://aclanthology.org/2024.acl-demos.20/) |  Re-DocRED  |Document-level  |  P,R,Micro-F1 |[GitHub](https://github.com/THUDM/AutoRE)
-|  [InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction](https://arxiv.org/abs/2304.08085) |FewRel Wiki-ZSL |Low-resource| Micro-F1  |[GiHub](https://github.com/BeyonderXX/InstructUIE)
-|  [ZS-BERT: Towards Zero-Shot Relation Extraction with Attribute Representation Learning](https://aclanthology.org/2021.naacl-main.272/)  |FewRel Wiki-ZSL|Low-resource|P,R,Micro-F1   |[GitHub](https://github.com/dinobby/ZS-BERT)
-|  [GPT-FinRE: In-context Learning for Financial Relation Extraction using Large Language Models](https://aclanthology.org/2023.finnlp-2.5/) |REFinD|Specific domain|Micro-F1  |[GitHub](https://github.com/Upaya07/GPT-FinRE)
-|  [Large Language Models as Financial Data Annotators: A Study on Effectiveness and Efficiency](https://aclanthology.org/2024.lrec-main.885/)|REFinD|Specific domain| Micro-F1  |
-|  [A Few-Shot Entity Relation Extraction Method in the Legal Domain Based on Large Language Models](https://dl.acm.org/doi/10.1145/3675417.3675513)|CAIL|Specific domain| Micro-F1  |
-|  [Are Large Language Models Ready for Healthcare? A Comparative Study on Clinical Language Understanding](https://proceedings.mlr.press/v219/wang23c.html)|Chemprot DDI2013|Specific domain| Micro-F1  |[GitHub](https://github.com/eternityyw/llm_healthcare)
-|  [LEAP: LLM instruction-example adaptive prompting framework for biomedical relation extraction](https://academic.oup.com/jamia/article-abstract/31/9/2010/7696965?redirectedFrom=fulltext)|Chemprot DDI2013|Specific domain| Micro-F1  |
-|  [Benchmarking large language models for biomedical natural language processing applications and recommendations](https://www.nature.com/articles/s41467-025-56989-2)|DDI 2013 |Specific domain|P,R,Micro-F1  |[GitHub](https://github.com/bids-xu-lab/biomedical-nlp-benchmarks)
-|  [An evaluation of DeepSeek Models in Biomedical Natural Language Processing](https://arxiv.org/abs/2503.00624) |DDI 2013 ChemProt  |Specific domain|P,R,Micro-F1|
-|  [Enhancing Relation Extraction from Biomedical Texts by Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-60615-1_1) |DDI 2013  ChemProt |Specific domain|P,R,Micro-F1  |
+|  Paper  |      Dataset   |Evaluation Metrics    |Code |
+| :----- | :--------------:| :---------: |:---------: |
+|  [Multimodal Relation Extraction with Efficient Graph Alignment](https://dl.acm.org/doi/10.1145/3474085.3476968)|MNRE |P,R,Micro-F1  |[GitHub](https://github.com/thecharm/Mega)
+|  [On analyzing the role of image for visual-enhanced relation extraction (student abstract)](https://dl.acm.org/doi/abs/10.1609/aaai.v37i13.26987) |MNRE|Micro-F1  |
+|  [Named Entity and Relation Extraction with Multi-Modal Retrieval](https://aclanthology.org/2022.findings-emnlp.437/) |MNRE |Micro-F1  |[GitHub](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe)
+|  [Multimodal Relation Extraction with Cross-Modal Retrieval and Synthesis](https://aclanthology.org/2023.acl-short.27/)  |MNRE |P,R,Micro-F1  |
+|  [Good Visual Guidance Make A Better Extractor: Hierarchical Visual Prefix for Multimodal Entity and Relation Extraction](https://aclanthology.org/2022.findings-naacl.121/) |MNRE|P,R,Micro-F1 |[GitHub](https://github.com/zjunlp/HVPNeT)
+|  [Prompt Me Up: Unleashing the Power of Alignments for Multimodal Entity and Relation Extraction](https://dl.acm.org/doi/10.1145/3581783.3611899)  |MNRE |P,R,Micro-F1  |[GitHub](https://github.com/THU-BPM/PROMU)
+|  [Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion](https://dl.acm.org/doi/abs/10.1145/3477495.3531992) |MNRE |P,R,Micro-F1  |[GitHub](https://github.com/zjunlp/MKGformer)
+|  [Multi-scale interaction network for multimodal entity and relation extraction](https://dl.acm.org/doi/abs/10.1016/j.ins.2024.121787)  |MNRE |P,R,Micro-F1  |
+|  [CE-DCVSI: : Multimodal relational extraction based on collaborative enhancement of dual-channel visual semantic information](https://dl.acm.org/doi/10.1016/j.eswa.2024.125608)  |MNRE |P,R,Micro-F1  |
+|  [Using Augmented Small Multimodal Models to Guide Large Language Models for Multimodal Relation Extraction](https://www.mdpi.com/2076-3417/13/22/12208)  |MNRE |P,R,Micro-F1  |
+|  [UMIE: Unified Multimodal Information Extraction with Instruction Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/29873) |MNRE |P,R,Micro-F1  |[GitHub](https://github.com/ZUCC-AI/UMIE)
+|  [Exploiting Visual Relation and Multi-Grained Knowledge for Multimodal Relation Extraction](https://ieeexplore.ieee.org/document/10650770)  |MNRE |P,R,Micro-F1  |
+|  [The more quality information the better: : Hierarchical generation of multi-evidence alignment and fusion model for multimodal entity and relation extraction](https://dl.acm.org/doi/10.1016/j.ipm.2024.103875) |MNRE |P,R,Micro-F1  |[GitHub](https://github.com/lsx314/HGMAF)
+|  [Caption-Aware Multimodal Relation Extraction with Mutual Information Maximization](https://dl.acm.org/doi/10.1145/3664647.3681219) |MNRE |P,R,Micro-F1  |[GitHub](https://github.com/zefanZhang-cn/CAMIM)
 
 
 ## Relation Extraction Open-source Tools 
