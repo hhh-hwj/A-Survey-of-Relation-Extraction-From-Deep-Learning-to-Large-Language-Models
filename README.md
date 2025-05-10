@@ -392,6 +392,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         <tr>
             <td align="center">GPT-4 series</td>
             <td align="center">-</td>
+            <td align="center">-</td>
             <td align="center">2023</td>
             <td align="center">×</td>
             <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
