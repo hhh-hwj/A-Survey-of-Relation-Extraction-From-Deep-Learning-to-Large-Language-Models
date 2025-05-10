@@ -292,41 +292,33 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
 <table>
     <thead>
         <tr>
-            <th align="center">Dataset</th>
-            <th align="center">Domain</th>
-            <th align="center">#Class</th>
-            <th align="center">#Train</th>
-            <th align="center">#Val</th>
-            <th align="center">#Test</th>
+            <th align="center">Model</th>
+            <th align="center">Size</th>
+            <th align="center">Release Time</th>
+            <th align="center">Publicly Availablen</th>
             <th align="center">Link</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center">SemEval-2010 Task 8</td>
-            <td align="center">General</td>
-            <td align="center">19</td>
-            <td align="center">6507</td>
-            <td align="center">-</td>
-            <td align="center">2717</td>
+            <td align="center">BERT</td>
+            <td align="center">110M, 340M</td>
+            <td align="center">2018</td>
+            <td align="center">✓</td>
             <td align="center"><a href="https://aclanthology.org/S10-1006/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">ACE05</td>
-            <td align="center">News</td>
-            <td align="center">6</td>
-            <td align="center">10051</td>
-            <td align="center">2424</td>
-            <td align="center">2050</td>
+            <td align="center">RoBERTa</td>
+            <td align="center">355M</td>
+            <td align="center">2019</td>
+            <td align="center">✓</td>
             <td align="center"><a href="https://catalog.ldc.upenn.edu/LDC2006T06">Link</a></td>
         </tr>
         <tr>
-            <td align="center">CoNLL04</td>
-            <td align="center">News</td>
-            <td align="center">6</td>
-            <td align="center">1153</td>
-            <td align="center">288</td>
-            <td align="center">288</td>
+            <td align="center">T5</td>
+            <td align="center">223M</td>
+            <td align="center">2019</td>
+            <td align="center">✓</td>
             <td align="center"><a href="https://cogcomp.seas.upenn.edu/page/resource view/43">Link</a></td>
         </tr>
         <tr>
@@ -335,61 +327,48 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">24</td>
             <td align="center">56195</td>
             <td align="center">5000</td>
-            <td align="center">5000</td>
             <td align="center"><a href="https://iesl.cs.umass.edu/riedel/ecml/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">WebNLG</td>
-            <td align="center">General</td>
-            <td align="center">246</td>
-            <td align="center">5019</td>
-            <td align="center">500</td>
-            <td align="center">703</td>
+            <td align="center">BART</td>
+            <td align="center">139M</td>
+            <td align="center">2019</td>
+            <td align="center">✓</td>
             <td align="center"><a href="https://github.com/weizhepei/CasRel/tree/master/data/WebNLG">Link</a></td>
         </tr>
         <tr>
-            <td align="center">ADE</td>
-            <td align="center">Biomedical</td>
-            <td align="center">1</td>
-            <td align="center">3417</td>
-            <td align="center">427</td>
-            <td align="center">428</td>
+            <td align="center">GPT-3</td>
+            <td align="center">175B</td>
+            <td align="center">2020</td>
+            <td align="center">×</td>
             <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">SciERC</td>
-            <td align="center">Scientific</td>
-            <td align="center">7</td>
-            <td align="center">1861</td>
-            <td align="center">275</td>
-            <td align="center">551</td>
+            <td align="center">CODEX</td>
+            <td align="center">12B</td>
+            <td align="center">2021</td>
+            <td align="center">✓</td>
             <td align="center"><a href="https://nlp.cs.washington.edu/sciIE/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">TACRED</td>
-            <td align="center">News</td>
-            <td align="center">42</td>
-            <td align="center">68124</td>
-            <td align="center">22631</td>
-            <td align="center">15509</td>
+            <td align="center">GPT-4</td>
+            <td align="center">-</td>
+            <td align="center">2023</td>
+            <td align="center">×</td>
             <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">Re-TACRED</td>
-            <td align="center">News</td>
-            <td align="center">40</td>
-            <td align="center">58465</td>
-            <td align="center">19584</td>
-            <td align="center">13418</td>
+            <td align="center">Mistral-7B</td>
+            <td align="center">7.3B</td>
+            <td align="center">2023</td>
+            <td align="center">✓</td>
             <td align="center"><a href="https://github.com/gstoica27/Re-TACRED">Link</a></td>
         </tr>
         <tr>
-            <td align="center">TACREV</td>
+            <td align="center">LLaMA3.1-8B</td>
             <td align="center">News</td>
             <td align="center">42</td>
             <td align="center">68124</td>
-            <td align="center">22631</td>
-            <td align="center">15509</td>
             <td align="center"><a href="https://github.com/DFKI-NLP/tacrev">Link</a></td>
         </tr>
         <tr>
@@ -397,8 +376,6 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">Document-level</td>
             <td align="center">96</td>
             <td align="center">3053</td>
-            <td align="center">1000</td>
-            <td align="center">1000</td>
             <td align="center"><a href="https://github.com/thunlp/DocRED">Link</a></td>
         </tr>
     </tbody>
