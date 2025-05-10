@@ -342,6 +342,30 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center"><a href="https://huggingface.co/google/flan-t5-xl">Link</a></td>
         </tr>
         <tr>
+            <td align="center">CodeLlama-34B</td>
+            <td align="center">33.7B</td>
+            <td align="center">-</td>
+            <td align="center">2023</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/meta-llama/CodeLlama-34b-hf">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">Mistral-7B</td>
+            <td align="center">7.24B</td>
+            <td align="center">-</td>
+            <td align="center">2023</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/mistralai">Link</a></td>
+        </tr>
+        <tr>
+            <td align="center">LLaMA3.1-8B</td>
+            <td align="center">8.03B</td>
+            <td align="center">-</td>
+            <td align="center">2024</td>
+            <td align="center">✓</td>
+            <td align="center"><a href="https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct">Link</a></td>
+        </tr>
+         <tr>
             <td align="center">GPT-3</td>
             <td align="center">175B</td>
             <td align="center">-</td>
@@ -371,30 +395,6 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">2023</td>
             <td align="center">×</td>
             <td align="center"><a href="https://nlp.stanford.edu/projects/tacred/">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">CodeLlama-34B</td>
-            <td align="center">33.7B</td>
-            <td align="center">-</td>
-            <td align="center">2023</td>
-            <td align="center">✓</td>
-            <td align="center"><a href="https://huggingface.co/meta-llama/CodeLlama-34b-hf">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">Mistral-7B</td>
-            <td align="center">7.24B</td>
-            <td align="center">-</td>
-            <td align="center">2023</td>
-            <td align="center">✓</td>
-            <td align="center"><a href="https://huggingface.co/mistralai">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">LLaMA3.1-8B</td>
-            <td align="center">8.03B</td>
-            <td align="center">-</td>
-            <td align="center">2024</td>
-            <td align="center">✓</td>
-            <td align="center"><a href="https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct">Link</a></td>
         </tr>
         <tr>
             <td align="center">Deepseek-R1 series</td>
