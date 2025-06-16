@@ -2,7 +2,7 @@
 # A Survey of Relation Extraction: From Deep Learning to Large Language Models
 
 <p align="center" width="80%">
-<img src="Article Structure.PNg" style="width: 50%">
+<img src="Article Structure.png" style="width: 50%">
 </p>
 
 The organization of papers is discussed in our survey: A Survey of Relation Extraction: From Deep Learning to Large Language Models]
