@@ -1,5 +1,5 @@
 
-# A Survey of Relation Extraction: From Deep Learning to Large Language Models
+# RE-Survey
 
 <p align="center" width="80%">
 <img src="文章结构图.PNG" style="width: 50%">
