@@ -20,7 +20,7 @@ The organization of papers is discussed in our survey: A Survey of Relation Extr
      - [Prompt-based Methods](#Prompt-based-Methods)
      - [Fine-tuning-based Methods](#Fine-tuning-based-Methods)
      - [Data Augmentation-based Methods](#Data-Augmentation-based-Methods)
-- [Multi-domain relation extraction](#Multi-domain relation extraction)
+- [Multi-domain relation extraction](#Multi-domain-relation-extraction)
 - [Relation Extraction Open-source Tools](#Relation-Extraction-Open-source-Tools)
 
 # Problem Definition
