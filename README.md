@@ -258,37 +258,37 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
 # Evaluation Metrics
 The core metrics for evaluating the performance of RE systems include precision (P), recall (R), and F1-score, which encompasses both Macro-F1 and Micro-F1. Precision is the proportion of true positives among all samples predicted as positive, while recall is the proportion of true positives correctly identified among all actual positives. The F1 score is the harmonic mean of precision and recall, balancing the trade-off between them. Micro-F1 is better for imbalanced datasets, as it aggregates true positive (TP), false positive (FP), and false negative (FN) across all classes, while Macro-F1 is more suited for balanced datasets, giving equal weight to each class. TP refers to samples correctly predicted as positive, FP refers to those incorrectly predicted as positive, and FN refers to actual positive samples predicted as negative, with \( \text{F1}_i \) representing the F1 score of the \( i \)-th class. The formulas for calculating the aforementioned metrics are given in equations (1) to (7).
 
-#### Precision (P)
+### Precision (P)
 $$
 \text{Precision (P)} = \frac{\text{TP}}{\text{TP} + \text{FP}}
 $$
 
-#### Recall (R)
+### Recall (R)
 $$
 \text{Recall (R)} = \frac{\text{TP}}{\text{TP} + \text{FN}}
 $$
 
-#### F1 Score
+### F1 Score
 $$
 \text{F1} = 2 \times \frac{\text{P} \times \text{R}}{\text{P} + \text{R}}
 $$
 
-#### Macro-F1
+### Macro-F1
 $$
 \text{Macro-F1} = \frac{1}{N} \sum_{i=1}^{N} \text{F1}_i
 $$
 
-#### Micro-Precision (Micro-P)
+### Micro-Precision (Micro-P)
 $$
 \text{Micro-Precision (Micro-P)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FP}_i}
 $$
 
-#### Micro-Recall (Micro-R)
+### Micro-Recall (Micro-R)
 $$
 \text{Micro-Recall (Micro-R)} = \frac{\sum_{i} \text{TP}_i}{\sum_{i} \text{TP}_i + \sum_{i} \text{FN}_i}
 $$
 
-#### Micro-F1
+### Micro-F1
 $$
 \text{Micro-F1} = \frac{2 \times \text{Micro-P} \times \text{Micro-R}}{\text{Micro-P} + \text{Micro-R}}
 $$
