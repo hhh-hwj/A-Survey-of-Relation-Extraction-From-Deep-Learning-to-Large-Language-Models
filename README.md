@@ -50,7 +50,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center">General</td>
             <td align="center">19</td>
             <td align="center">6507</td>
-            <td align="center">-</td>
+            <td align="center">1493</td>
             <td align="center">2717</td>
             <td align="center"><a href="https://aclanthology.org/S10-1006/">Link</a></td>
         </tr>
@@ -156,23 +156,23 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         <tr>
             <td align="center">CodRED</td>
             <td align="center">Document-level</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
+            <td align="center">276</td>
+            <td align="center">2733</td>
+            <td align="center">1010</td>
+            <td align="center">1012</td>
             <td align="center"><a href="https://github.com/thunlp/CodREDv">Link</a></td>
         </tr>
         <tr>
             <td align="center">DocRED-HWE</td>
             <td align="center">Document-level</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
-            <td align="center">-</td>
+            <td align="center">96</td>
+            <td align="center">3053</td>
+            <td align="center">699</td>
+            <td align="center">1000</td>
             <td align="center"><a href="https://github.com/Hytn/DocRED-HWE">Link</a></td>
         </tr>
         <tr>
-            <td align="center">REFinD  </td>
+            <td align="center">REFinD</td>
             <td align="center">Finance </td>
             <td align="center">22</td>
             <td align="center">20070</td>
@@ -183,20 +183,11 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         <tr>
             <td align="center">MNRE</td>
             <td align="center">Multi-modal</td>
-            <td align="center">31</td>
-            <td align="center">12247</td>
-            <td align="center">1624</td>
-            <td align="center">1614</td>
-            <td align="center"><a href="https://github.com/thecharm/MNRE">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">MNRE*</td>
-            <td align="center">Multi-modal</td>
             <td align="center">23</td>
             <td align="center">12247</td>
             <td align="center">1624</td>
             <td align="center">1614</td>
-            <td align="center"><a href="https://github.com/thecharm/Mega">Link</a></td>
+            <td align="center"><a href="https://github.com/thecharm/MNRE">Link</a></td>
         </tr>
         <tr>
             <td align="center">CAIL</td>
@@ -210,10 +201,10 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         <tr>
             <td align="center">FewRel</td>
             <td align="center">Low-resource</td>
-            <td align="center">100</td>
-            <td align="center"> 56000</td>
-            <td align="center">14000</td>
-            <td align="center">14000</td>
+            <td align="center">80</td>
+            <td align="center"> 52500</td>
+            <td align="center">-</td>
+            <td align="center">3500</td>
             <td align="center"><a href="https://github.com/thunlp/FewRel">Link</a></td>
         </tr>
         <tr>
@@ -235,21 +226,12 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
             <td align="center"><a href="https://sites.google.com/site/adecorpus/">Link</a></td>
         </tr>
         <tr>
-            <td align="center">ChemProt</td>
-            <td align="center">Biochemical</td>
-            <td align="center">14</td>
-            <td align="center"> 19460 </td>
-            <td align="center">11820</td>
-            <td align="center">16943 </td>
-            <td align="center"><a href="https://github.com/allenai/scibert">Link</a></td>
-        </tr>
-        <tr>
-            <td align="center">DDI </td>
+            <td align="center">DDI2013 </td>
             <td align="center">Biochemical </td>
-            <td align="center">5</td>
-            <td align="center">18,779</td>
-            <td align="center">7244</td>
-            <td align="center">5761</td>
+            <td align="center">4</td>
+            <td align="center">6976</td>
+            <td align="center">-</td>
+            <td align="center">1299</td>
             <td align="center"><a href="https://github.com/albertrial/SemEval-2013-task-9">Link</a></td>
         </tr>
     </tbody>
