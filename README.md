@@ -56,7 +56,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">ACE05</td>
-            <td align="center">News</td>
+            <td align="center">General</td>
             <td align="center">6</td>
             <td align="center">10051</td>
             <td align="center">2424</td>
@@ -65,7 +65,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">CoNLL04</td>
-            <td align="center">News</td>
+            <td align="center">General</td>
             <td align="center">6</td>
             <td align="center">1153</td>
             <td align="center">288</td>
@@ -74,7 +74,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">NYT</td>
-            <td align="center">News</td>
+            <td align="center">General</td>
             <td align="center">24</td>
             <td align="center">56195</td>
             <td align="center">5000</td>
@@ -101,7 +101,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">SciERC</td>
-            <td align="center">Scientific</td>
+            <td align="center">General</td>
             <td align="center">7</td>
             <td align="center">1861</td>
             <td align="center">275</td>
@@ -110,7 +110,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">TACRED</td>
-            <td align="center">News</td>
+            <td align="center">General</td>
             <td align="center">42</td>
             <td align="center">68124</td>
             <td align="center">22631</td>
@@ -119,7 +119,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">Re-TACRED</td>
-            <td align="center">News</td>
+            <td align="center">General</td>
             <td align="center">40</td>
             <td align="center">58465</td>
             <td align="center">19584</td>
@@ -128,7 +128,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">TACREV</td>
-            <td align="center">News</td>
+            <td align="center">General</td>
             <td align="center">42</td>
             <td align="center">68124</td>
             <td align="center">22631</td>
@@ -137,7 +137,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">DocRED</td>
-            <td align="center">Document-level</td>
+            <td align="center">General</td>
             <td align="center">96</td>
             <td align="center">3053</td>
             <td align="center">1000</td>
@@ -146,7 +146,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">Re-DocRED </td>
-            <td align="center">Document-level</td>
+            <td align="center">Generall</td>
             <td align="center">96</td>
             <td align="center">3053</td>
             <td align="center">500</td>
@@ -155,7 +155,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">CodRED</td>
-            <td align="center">Document-level</td>
+            <td align="center">General</td>
             <td align="center">276</td>
             <td align="center">2733</td>
             <td align="center">1010</td>
@@ -164,7 +164,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">DocRED-HWE</td>
-            <td align="center">Document-level</td>
+            <td align="center">General</td>
             <td align="center">96</td>
             <td align="center">3053</td>
             <td align="center">699</td>
@@ -200,7 +200,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">FewRel</td>
-            <td align="center">Low-resource</td>
+            <td align="center">General</td>
             <td align="center">80</td>
             <td align="center"> 52500</td>
             <td align="center">-</td>
@@ -209,7 +209,7 @@ We have summarized the commonly used datasets for RE tasks through an extensive 
         </tr>
         <tr>
             <td align="center">Wiki-ZSL</td>
-            <td align="center">Low-resource </td>
+            <td align="center">General</td>
             <td align="center">113</td>
             <td align="center">-</td>
             <td align="center">-</td>
